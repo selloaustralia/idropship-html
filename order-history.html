@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+        <meta charset="utf-8">
+       	<title>Order History</title>
+       	<link href="css/reset.css" media="screen" rel="stylesheet">
+       	 <link href="css/font-awesome.min.css" media="screen" rel="stylesheet">
+       	<link href="css/bootstrap.css" media="screen" rel="stylesheet">
+      	<link href="css/styles.css" media="screen" rel="stylesheet">
+      	<link href="css/responsive.css" media="screen" rel="stylesheet">
+      	<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	</head>
+	<body class="dashboard-page">
+		<!-- header -->
+		
+		<div class="page-wrapper">
+			<div class="menu-wrapper">
+				<nav class="admin__menu">
+					<ul id="nav">
+						<li class="item-dashboard level-0">
+							<a href="home.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+						</li>
+						<li class="item-dashboard  level-0">
+							<a href="dashboard.html"><i class="fa fa-tachometer" aria-hidden="true"></i>Dashboard</a>
+						</li>
+						<li class="item-sales level-0 ">
+							<a href="find-products.html" class="disabled"><i class="fa fa-search-plus" aria-hidden="true"></i>Find Product</a>
+						</li>
+						<li class="item-catalogue  level-0 ">
+							<a href="my-products.html"  class="disabled"><i class="fa fa-product-hunt" aria-hidden="true"></i>My products</a>
+						</li>
+						<li class="item-customers  level-0 ">
+							<a href="listing-manager.html"  class="disabled"><i class="fa fa-connectdevelop" aria-hidden="true"></i>Listing Manager</a>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="place-order.html"  class="disabled"><i class="fa fa-cart-plus" aria-hidden="true"></i>Place Orders</a>
+						</li>
+						<li class="item-customers  level-0 active">
+							<a href="order-history.html"  class="disabled"><i class="fa fa-history" aria-hidden="true"></i>Orders History</a>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="wallet.html"  class="disabled"><i class="fa fa-money" aria-hidden="true"></i>Wallet</a>
+						</li>
+						<li class="item-wallet  level-0">
+							<a href="#" class="disabled"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a>
+							<div class="submenu">
+								<strong class="submenu-title">Settings</strong>
+								<a href="#" class="action-close disabled"></a>
+								<ul class="submenu">
+									<li class="column">
+										<ul>
+											<li class="parent">
+												<div class="submenu">
+													<ul>
+														<li>
+															<a href="sale-channel.html">Sales Channel</a>
+														</li>
+														<li>
+															<a href="download-center.html">Download Center</a>
+														</li>
+														<li>
+															<a href="pricing-rules.html">Pricing Rules</a>
+														</li>
+														<li>
+															<a href="logs.html">Logs</a>
+														</li>
+														<li>
+															<a href="image-template.html">Image Template</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</li>
+									
+								</ul>
+							</div>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="sku-mapping.html"  class="disabled"><i class="fa fa-code-fork" aria-hidden="true"></i>Sku Mapping</a>
+						</li>
+						
+					</ul>
+				</nav>
+				<div class="box-required">
+					<div class="box-content">
+						<div class="top">
+							<img src="images/chart2.png">
+							<h3>Completed<br> your profile</h3>
+						</div>
+						<div class="bottom">
+							<h2>Getting started<i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+							<ul>
+								<li>
+									<a href="#">Verify account details</a>
+								</li>
+								<li>
+									<a href="#">Source Product</a>
+								</li>
+								<li>
+									<a href="#">Sales channel</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<main class="page-content">
+				
+				<div class="page-columns">
+					<div class="page-order-history">
+						<div class="title-heading">
+							<h2>
+								Order History
+							</h2>
+						</div>
+						<div class="store">
+							<ul>
+								<li class="current">
+									<span>Australia</span>
+								</li>
+								<li>
+									<span>New Zeland</span>
+								</li>
+							</ul>
+						</div>
+						<div class="order-status">
+							<ul>
+								<li>
+									Shipped<span>7</span>
+								</li>
+								<li>
+									Paid & unshipped<span>0</span>
+								</li>
+								<li>
+									Unpaid<span>3</span>
+								</li>
+								<li>
+									not submitted<span>2</span>
+								</li>
+								<li>
+									Cancelled<span>1</span>
+								</li>
+								<li class="current">
+									All order<span>10</span>
+								</li>
+							</ul>
+						</div>
+						<div class="order-filter">
+							<form>
+								<div class="data-fillter">
+							         <div class="data-fillter-top">
+							             <div class="field">
+							                 <label>Order No(s):</label>
+							                 <input type="text" class="filter-input order-number" id="order-number" name="order-number" value="" placeholder="Comma Separated Order Number">
+							            </div>
+							             <div class="field">
+							                 <label>Your Order No(s):</label>
+							                 <input type="text" class="filter-input your-order-number" id="your-order-number" name="your-order-number" value="" placeholder="Comma Separated Order Number">
+							            </div>
+							             <div class="field">
+							                 <label>Ship To Name:</label>
+							                 <input type="text" class="filter-input ship-to-name" id="ship-to-name" name="ship-to-name" value="" placeholder="Comma Separated Order Number">
+							            </div>
+							         </div>
+							        <div class="field">
+							            <label>From Date:</label>
+							            <input type="date" class="filter-input from-date _has-datepicker" id="from-date" name="from-date" value="" width="20px" placeholder="dd/MM/Y" autocomplete="on">
+							        </div>
+							        <div class="field">
+							            <label>To Date:</label>
+							            <input type="date" class="filter-input to-date _has-datepicker" id="to-date" name="to-date" value="" width="20px" placeholder="dd/MM/Y" autocomplete="on">
+							        </div>
+							        <input type="hidden" name="curency" id="curency" value="nre">
+							         <div class="action">
+							                              <button type="submit" class="btn btn-primary" id="btn-submit-form">Apply Fillter</button>
+							                      </div>
+
+							     </div>
+							</form>
+						</div>
+						<div class="table-list-order">
+							<div class="top-form">
+				                <button type="submit" class="btn btn-primary" name="paymultiple">Pay Now for Selected Order(s)</button>
+				                <button type="submit" class="btn btn-primary" name="exportSelected">Export Filtered Orders To .csv</button>
+				            </div>
+				            <div class="toolbar">
+				            	<div class="toolbar-amount-custom">
+                					<span class="toolbar-number-custom">224</span> records found <span class="records-selected"></span>            
+                				</div>
+				            </div>
+				            <div class="box-order">
+								<table class="data-gird">
+									<thead>
+										<tr>
+											<th class="data-grid-multicheck-cell">
+												<div class="action-multicheck-wrap">
+													<input class="admin__control-checkbox" type="checkbox" id="select-all" name="select all">
+													<button class="action-multicheck-toggle"><span>Options</span></button>
+													<ul class="action-menu" for="select-all">
+											            <li>
+											                <span class="action-menu-item">Select All</span>
+											            </li>
+											            <li style="display: none;">
+											                <span class="action-menu-item">Deselect All</span>
+											            </li>
+											            <li>
+											                <span class="action-menu-item">Select All on This Page</span>
+											            </li>
+											            <li style="display: none;">
+											                <span class="action-menu-item">Deselect All on This Page</span>
+											            </li>
+											        </ul>
+												</div>
+											</th>
+											<th>
+												<span>ORDER #</span>
+											</th>
+											<th>
+												<span>YOUR ORDER #</span>
+											</th>
+											<th>
+												<span>DATE</span>
+											</th>
+											<th>
+												<span>SHIP TO</span>
+											</th>
+											<th>
+												<span>ORDER TOTAL</span>
+											</th>
+											<th>
+												STATUS
+											</th>
+											<th>
+												ACTION
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<input class="quick-search" type="checkbox" name="">
+											</td>
+											<td class="order">
+												<a href="order-detail.html">
+													57895597
+												</a>
+											</td>
+											<td>
+												fb0500015
+											</td>
+											<td>
+												23/08/2021
+											</td>
+											<td class="right">
+												leo Z
+											</td>
+											<td>
+												A$180.00
+											</td>
+											<td>
+												Pendding
+											</td>
+											<td><a href="#">Pay Now</a></td>
+										</tr>
+										<tr>
+											<td>
+												<input class="quick-search" type="checkbox" name="">
+											</td>
+											<td class="order">
+												<a href="order-detail.html">
+													57895597
+												</a>
+											</td>
+											<td>
+												fb0500015
+											</td>
+											<td>
+												23/08/2021
+											</td>
+											<td class="right">
+												leo Z
+											</td>
+											<td>
+												A$180.00
+											</td>
+											<td>
+												Pendding
+											</td>
+											<td><a href="#">Pay Now</a></td>
+										</tr>
+										<tr>
+											<td>
+												<input class="quick-search" type="checkbox" name="">
+											</td>
+											<td class="order">
+												<a href="order-detail.html">
+													57895597
+												</a>
+											</td>
+											<td>
+												fb0500015
+											</td>
+											<td>
+												23/08/2021
+											</td>
+											<td class="right">
+												leo Z
+											</td>
+											<td>
+												A$180.00
+											</td>
+											<td>
+												Pendding
+											</td>
+											<td><a href="#">Pay Now</a></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<br>
+						<br>
+
+					</div>
+				</div>
+			</main>
+		</div>
+	
+
+<!-- slider -->
+
+
+<script>
+	var selector, elems, makeActive;
+
+	selector = '#nav li a';
+
+	elems = document.querySelectorAll(selector);
+
+	makeActive = function () {
+		for (var i = 0; i < elems.length; i++)
+			elems[i].parentNode.classList.remove('active');
+			this.parentNode.classList.add('active');
+	};
+
+	for (var i = 0; i < elems.length; i++){
+		elems[i].addEventListener('click', makeActive);
+	}
+</script>
+<script>
+	var action_close = document.getElementsByClassName("action-close");
+	action_close.addEventListener('click',function(){
+		for (var item of document.querySelectorAll('#nav > li')) {
+			item.classList.remove('active');
+		}
+	});
+	
+</script>
+
+
+
+
+
+</body>
+
+</html>

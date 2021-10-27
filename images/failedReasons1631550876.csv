@@ -1,0 +1,2 @@
+Sku,"Failed Reasons"
+BED1006-2-WH,"Error getting remote image https://idropship.com.au/pub/media/catalog/product/i/d/idropship06_xqeozqxoovrjjuoo.jpg. Error: cURL error 56: OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 104"

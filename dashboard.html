@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+        <meta charset="utf-8">
+       	<title>Dashboard</title>
+       	<link href="css/reset.css" media="screen" rel="stylesheet">
+       	<link href="css/font-awesome.min.css" media="screen" rel="stylesheet">
+       	<link href="css/bootstrap.css" media="screen" rel="stylesheet">
+      	<link href="css/styles.css" media="screen" rel="stylesheet">
+      	<link href="css/responsive.css" media="screen" rel="stylesheet">
+      	<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	</head>
+	<body class="dashboard-page">
+		<!-- Menu bar -->
+		
+		<!-- End Menu Bar -->
+		<div class="page-wrapper">
+			<div class="menu-wrapper">
+				<nav class="admin__menu">
+					<ul id="nav">
+						<li class="item-dashboard level-0">
+							<a href="home.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+						</li>
+						<li class="item-dashboard active level-0">
+							<a href="dashboard.html"><i class="fa fa-tachometer" aria-hidden="true"></i>Dashboard</a>
+						</li>
+						<li class="item-sales level-0">
+							<a href="find-products.html" class="disabled"><i class="fa fa-search-plus" aria-hidden="true"></i>Find Product</a>
+						</li>
+						<li class="item-catalogue  level-0">
+							<a href="my-products.html"  class="disabled"><i class="fa fa-product-hunt" aria-hidden="true"></i>My products</a>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="listing-manager.html"  class="disabled"><i class="fa fa-connectdevelop" aria-hidden="true"></i>Listing Manager</a>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="place-order.html"  class="disabled"><i class="fa fa-cart-plus" aria-hidden="true"></i>Place Orders</a>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="order-history.html"  class="disabled"><i class="fa fa-history" aria-hidden="true"></i>Orders History</a>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="wallet.html"  class="disabled"><i class="fa fa-money" aria-hidden="true"></i>Wallet</a>
+						</li>
+						<li class="item-wallet  level-0">
+							<a href="#" class="disabled"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a>
+							<div class="submenu">
+								<strong class="submenu-title">Settings</strong>
+								<a href="#" class="action-close disabled"></a>
+								<ul class="submenu">
+									<li class="column">
+										<ul>
+											<li class="parent">
+												<div class="submenu">
+													<ul>
+														<li>
+															<a href="sale-channel.html">Sales Channel</a>
+														</li>
+														<li>
+															<a href="download-center.html">Download Center</a>
+														</li>
+														<li>
+															<a href="pricing-rules.html">Pricing Rules</a>
+														</li>
+														<li>
+															<a href="logs.html">Logs</a>
+														</li>
+														<li>
+															<a href="image-template.html">Image Template</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</li>
+									
+								</ul>
+							</div>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="sku-mapping.html"  class="disabled"><i class="fa fa-code-fork" aria-hidden="true"></i>Sku Mapping</a>
+						</li>
+						
+					</ul>
+				</nav>
+				<div class="box-required">
+					<div class="box-content">
+						<div class="top">
+							<img src="images/chart2.png">
+							<h3>Completed<br> your profile</h3>
+						</div>
+						<div class="bottom">
+							<h2>Getting started<i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+							<ul>
+								<li>
+									<a href="#">Verify account details</a>
+								</li>
+								<li>
+									<a href="#">Source Product</a>
+								</li>
+								<li>
+									<a href="#">Sales channel</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<main class="page-content">
+				<div class="page-columns">
+					<div class="title-heading">
+						<h2>
+							Dashboard
+						</h2>
+						<p>Analytics</p>
+					</div>
+					<div class="sort-filter-db">
+						<div class="date">
+							<div class="current"><i class="fa fa-calendar" aria-hidden="true"></i>Last 7 days</div>
+							<div class="dropdown">
+								<ul>
+									<li>
+										<a href="#">Today</a>
+									</li>
+									<li>
+										<a href="#">Yesterday</a>
+									</li>
+									<li>
+										<a href="#">Last 7 days</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="filter-db">
+							<i class="fa fa-filter" aria-hidden="true"></i> Filters
+						</div>
+					</div>
+					<div class="col-top">
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<div class="fillter-sale">
+									<div class="icon">
+										<img src="images/d1.png">
+									</div>
+									<div class="table">
+										<table>
+											<caption>Sales</caption>
+											<thead>
+												<tr>
+													<th>Inventory</th>
+													<th>Sales Value</th>
+													<th>Average shipping cost</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>0</td>
+													<td>$0.00</td>
+													<td></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<div class="fillter-sale order">
+									<div class="icon">
+										<img src="images/d2.png">
+									</div>
+									<div class="table">
+										<table>
+											<caption>Orders</caption>
+											<thead>
+												<tr>
+													<th>Open</th>
+													<th>Pending</th>
+													<th>Processed</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>0</td>
+													<td>0</td>
+													<td>0</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<div class="fillter-sale invoice">
+									<div class="icon">
+										<img src="images/d3.png">
+									</div>
+									<div class="table">
+										<table>
+											<caption>Invoice</caption>
+											<thead>
+												<tr>
+													<th>Generated</th>
+													<th>Paid</th>
+													<th>Unpaid</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>0</td>
+													<td>0</td>
+													<td>0</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-content">
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<div class="chart">
+									<img src="images/chart.png">
+								</div>
+							</div>
+							<div class="col-md-8 col-sm-12">
+								<div class="row">
+									<div class="col-md-4 col-sm-12">
+										<div class="box-result">
+											<h3>Top 5 sold products</h3>
+											<div class="list-item">
+												<p class="empty">
+													<img src="images/no-data.png">
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-12">
+										<div class="box-result">
+											<h3>Sales value</h3>
+											<div class="list-item">
+												<p class="empty">
+													<img src="images/no-data.png">
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-12">
+										<div class="box-result">
+											<h3>Orders received</h3>
+											<div class="list-item">
+												<p class="empty">
+													<img src="images/no-data.png">
+												</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							
+							
+
+
+						</div>
+					</div>
+					
+				</div>
+			</main>
+		</div>
+	
+<script type="text/javascript">
+	var classIcon = document.querySelector(".date");
+	classIcon.addEventListener("click", function(event){
+		// var target = event.target.parentElement;
+		if (classIcon.classList.contains("active")){
+		classIcon.classList.remove("active")
+		} else {
+			classIcon.classList.add("active")
+		}
+	})
+</script>
+<!-- /* chart pie -->
+<script src="js/jquery.min.js"></script>
+<script src="chart/jquery.appear.min.js"></script>
+<script src="chart/jquery.easypiechart.min.js"></script>
+<!-- /*================================================== */ -->
+<script>
+    'use strict';
+
+var $window = $(window);
+
+function run()
+{
+	var fName = arguments[0],
+		aArgs = Array.prototype.slice.call(arguments, 1);
+	try {
+		fName.apply(window, aArgs);
+	} catch(err) {
+		 
+	}
+};
+ 
+/* chart
+================================================== */
+function _chart ()
+{
+	$('.b-skills').appear(function() {
+		setTimeout(function() {
+			$('.chart').easyPieChart({
+				easing: 'easeOutElastic',
+				delay: 3000,
+				barColor: '#369670',
+				trackColor: '#ddd',
+				scaleColor: false,
+				lineWidth: 15,
+				trackWidth: 15,
+				size: 200,
+				lineCap: 'round',
+				onStep: function(from, to, percent) {
+					this.el.children[0].innerHTML = Math.round(percent);
+				}
+			});
+		}, 0);
+	});
+};
+ 
+
+$(document).ready(function() {
+	run(_chart);
+}); 
+</script>
+<!-- side bar -->
+<script>
+	var selector, elems, makeActive;
+
+	selector = '#nav li a';
+
+	elems = document.querySelectorAll(selector);
+
+	makeActive = function () {
+		for (var i = 0; i < elems.length; i++)
+			elems[i].parentNode.classList.remove('active');
+			this.parentNode.classList.add('active');
+	};
+
+	for (var i = 0; i < elems.length; i++){
+		elems[i].addEventListener('click', makeActive);
+	}
+</script>
+<script>
+	var action_close = document.getElementsByClassName("action-close");
+	action_close.addEventListener('click',function(){
+		for (var item of document.querySelectorAll('#nav > li')) {
+			item.classList.remove('active');
+		}
+	});
+	
+</script>
+
+
+<!-- Chart 2 -->
+
+
+
+
+</body>
+
+</html>

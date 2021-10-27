@@ -1,0 +1,4288 @@
+@font-face {
+  font-family: 'Admin Icons';
+  src: url("../fonts/admin-icons.eot");
+  src: url("../fonts/admin-icons.eot#iefix") format("embedded-opentype"), url("../fonts/admin-icons.woff") format("woff"), url("../fonts/admin-icons.ttf") format("truetype"), url("../fonts/admin-icons.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 13, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000313}}
+html {
+  height: 100%;
+}
+/* line 16, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000316}}
+html {
+  font-size: 62.5%;
+}
+/* line 19, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000319}}
+body.dashboard-page {
+  color: #41362f;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.36;
+  font-size: 1.4rem;
+  background-color: #efeeee;
+  min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+/* line 30, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000330}}
+body.dashboard-page .title-heading h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+/* line 35, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000335}}
+body.dashboard-page .title-heading p {
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+/* line 40, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000340}}
+body.dashboard-page .page-columns {
+  margin-left: 300px;
+}
+/* line 45, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000345}}
+.button {
+  border: 1px solid;
+  border-radius: 0;
+  display: inline-block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.36;
+  padding: 0.6rem 1em 0.6rem;
+  text-align: center;
+  vertical-align: baseline;
+}
+/* line 60, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000360}}
+.menu-wrapper {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  margin-top: 100px;
+  float: left;
+}
+/* line 66, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000366}}
+.menu-wrapper ul {
+  padding: 0;
+}
+/* line 70, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000370}}
+.sort-filter-db {
+  text-align: right;
+  margin-top: -70px;
+}
+/* line 73, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000373}}
+.sort-filter-db .fa {
+  margin-right: 5px;
+}
+/* line 76, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000376}}
+.sort-filter-db .date {
+  display: inline-block;
+  border: 1px solid #333;
+  background: #fff;
+  margin-right: 15px;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  position: relative;
+}
+/* line 85, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000385}}
+.sort-filter-db .date .current {
+  cursor: pointer;
+}
+/* line 88, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000388}}
+.sort-filter-db .date .dropdown {
+  position: absolute;
+  top: 39px;
+  right: 0;
+  left: auto;
+  width: 150px;
+  background: #fff;
+  z-index: 9;
+  text-align: center;
+  border-radius: 10px;
+  display: none;
+}
+/* line 99, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\0000399}}
+.sort-filter-db .date .dropdown:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #ffffff transparent;
+  position: absolute;
+  top: -9px;
+}
+/* line 109, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003109}}
+.sort-filter-db .date .dropdown ul {
+  padding: 15px;
+}
+/* line 112, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003112}}
+.sort-filter-db .date .dropdown li {
+  margin-bottom: 10px;
+}
+/* line 114, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003114}}
+.sort-filter-db .date .dropdown li:last-child {
+  margin: 0;
+}
+/* line 117, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003117}}
+.sort-filter-db .date .dropdown li a {
+  background: #cecece;
+  display: block;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 124, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003124}}
+.sort-filter-db .date .dropdown li a:hover {
+  color: #fff;
+  background: #5b59f7;
+}
+/* line 131, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003131}}
+.sort-filter-db .date.active {
+  background: #5b59f7;
+}
+/* line 133, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003133}}
+.sort-filter-db .date.active .current {
+  color: #fff;
+}
+/* line 136, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003136}}
+.sort-filter-db .date.active .dropdown {
+  display: block !important;
+}
+/* line 141, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003141}}
+.sort-filter-db .filter-db {
+  display: inline-block;
+  border: 1px solid #333;
+  background: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+/* line 153, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003153}}
+.admin__menu ul#nav > li {
+  display: block;
+  position: relative;
+}
+/* line 156, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003156}}
+.admin__menu ul#nav > li > a {
+  color: #7c7b7b;
+  display: block;
+  font-size: 17px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
+  word-wrap: break-word;
+  padding: 10px 0;
+  font-weight: 700;
+  padding-left: 40px;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 171, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003171}}
+.admin__menu ul#nav > li > a:before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 3px;
+  background: #5d59f8;
+  display: none;
+}
+/* line 181, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003181}}
+.admin__menu ul#nav > li > a .fa {
+  color: #000;
+  width: 20px;
+  text-align: center;
+  margin-right: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 190, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003190}}
+.admin__menu ul#nav > li.level-0.active > a,
+.admin__menu ul#nav > li.level-0.current > a,
+.admin__menu ul#nav > li.level-0 > a:hover {
+  color: #5d59f8;
+}
+/* line 194, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003194}}
+.admin__menu ul#nav > li.level-0.active > a .fa,
+.admin__menu ul#nav > li.level-0.current > a .fa,
+.admin__menu ul#nav > li.level-0 > a:hover .fa {
+  color: #5d59f8;
+}
+/* line 197, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003197}}
+.admin__menu ul#nav > li.level-0.active > a:before,
+.admin__menu ul#nav > li.level-0.current > a:before,
+.admin__menu ul#nav > li.level-0 > a:hover:before {
+  display: block;
+}
+/* line 202, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003202}}
+.admin__menu ul#nav > li.active > .submenu {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  visibility: visible;
+  z-index: 698;
+}
+/* line 207, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003207}}
+.admin__menu ul#nav > li > .submenu {
+  background-color: #4a4542;
+  left: 100%;
+  min-height: calc(7.5rem + 2rem + 100%);
+  padding: 2rem 0 0;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-property: visibility, -webkit-transform;
+  transition-property: visibility, -webkit-transform;
+  transition-property: transform, visibility;
+  transition-property: transform, visibility, -webkit-transform;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  visibility: hidden;
+  z-index: 697;
+}
+/* line 221, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003221}}
+.admin__menu ul#nav > li > .submenu .submenu-title {
+  color: #ffffff;
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 4.2rem;
+  margin-left: 3rem;
+  margin-right: 5.8rem;
+}
+/* line 230, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003230}}
+.admin__menu ul#nav > li > .submenu a {
+  color: #fcfcfc;
+  -webkit-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
+}
+/* line 234, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003234}}
+.admin__menu ul#nav > li > .submenu .action-close {
+  padding: 2.4rem 2.8rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+}
+/* line 240, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003240}}
+.admin__menu ul#nav > li > .submenu .action-close:before {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Admin Icons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  color: #a79d95;
+  font-size: 1.7rem;
+  content: '\e62f';
+  -webkit-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+}
+/* line 253, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003253}}
+.admin__menu ul#nav > li > .submenu .column {
+  display: table-cell;
+  min-width: 23.8rem;
+}
+/* line 256, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003256}}
+.admin__menu ul#nav > li > .submenu .column li.parent {
+  min-width: 23.8rem;
+  margin-bottom: 4.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  display: block;
+}
+/* line 262, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003262}}
+.admin__menu ul#nav > li > .submenu .column li.parent .submenu-group-title {
+  color: #a79d95;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  padding: 1.25rem 1.5rem;
+  pointer-events: none;
+}
+/* line 271, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003271}}
+.admin__menu ul#nav > li > .submenu .column li.parent a {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  text-decoration: none;
+}
+/* line 275, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003275}}
+.admin__menu ul#nav > li > .submenu .column li.parent a:hover {
+  color: #5d59f8;
+}
+/* line 287, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003287}}
+table {
+  caption-side: top;
+  border-collapse: collapse;
+}
+/* line 291, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003291}}
+.dashboard-page .page-wrapper {
+  margin-left: 0;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+/* line 297, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003297}}
+.stock-summary {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+/* line 301, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003301}}
+.stock-summary h3 {
+  margin: 0;
+  background-color: #eee;
+  font-size: 2rem;
+  padding: 5px 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+/* line 309, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003309}}
+.stock-summary .list-value {
+  padding: 15px;
+}
+/* line 311, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003311}}
+.stock-summary .list-value ul {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 0;
+}
+/* line 315, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003315}}
+.stock-summary .list-value ul li {
+  border-bottom: 1px solid #eee;
+  padding: 7px 15px;
+}
+/* line 318, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003318}}
+.stock-summary .list-value ul li .value {
+  float: right;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+/* line 326, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003326}}
+.stock-summary .list-value ul .stock .value {
+  background: #27ae60;
+}
+/* line 329, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003329}}
+.stock-summary .list-value ul .out-stock .value {
+  background: #d60000;
+}
+/* line 332, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003332}}
+.stock-summary .list-value ul .low-stock .value {
+  background: #ffb91d;
+}
+/* line 335, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003335}}
+.stock-summary .list-value ul .outdated .value {
+  background: gray;
+}
+/* line 340, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003340}}
+.col-content {
+  padding-top: 0;
+  margin-bottom: 30px;
+}
+/* line 343, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003343}}
+.col-content .chart {
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+/* line 347, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003347}}
+.col-content .chart img {
+  width: 100%;
+}
+/* line 351, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003351}}
+.col-content .box-result {
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 30px;
+}
+/* line 356, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003356}}
+.col-content .box-result img {
+  width: auto;
+  max-width: 100%;
+}
+/* line 360, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003360}}
+.col-content .box-result h3 {
+  background: #6c63ff;
+  padding: 15px;
+  color: #fff;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+}
+/* line 371, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003371}}
+.fillter-sale {
+  border-radius: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 375, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003375}}
+.fillter-sale .control {
+  margin-bottom: 15px;
+}
+/* line 377, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003377}}
+.fillter-sale .control label {
+  display: inline-block;
+}
+/* line 380, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003380}}
+.fillter-sale .control .control-form {
+  display: inline-block;
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+/* line 386, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003386}}
+.fillter-sale .control .control-form select {
+  border: 0;
+  font-weight: bold;
+}
+/* line 392, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003392}}
+.fillter-sale.order .table {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#399db6), to(#6cd4ec));
+  background-image: linear-gradient(to bottom, #399db6, #6cd4ec);
+}
+/* line 395, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003395}}
+.fillter-sale.invoice .table {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ec008b), to(#fb6567));
+  background-image: linear-gradient(to bottom, #ec008b, #fb6567);
+}
+/* line 399, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003399}}
+.fillter-sale .icon {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  border-radius: 23px;
+  overflow: hidden;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+/* line 408, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003408}}
+.fillter-sale .table {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cb2b5e), to(#753987));
+  background-image: linear-gradient(to bottom, #cb2b5e, #753987);
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+/* line 415, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003415}}
+.fillter-sale .table caption {
+  font-weight: bold;
+  color: #fff;
+  padding: 40px 30px 15px;
+  font-size: 20px;
+}
+/* line 421, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003421}}
+.fillter-sale .table table {
+  width: 100%;
+  text-align: center;
+}
+/* line 424, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003424}}
+.fillter-sale .table table thead {
+  background: rgba(255, 255, 255, 0.2);
+}
+/* line 427, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003427}}
+.fillter-sale .table table thead th {
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: 400;
+}
+/* line 433, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003433}}
+.fillter-sale .table table tbody td {
+  padding: 10px 15px;
+  padding-bottom: 40px;
+}
+/* line 437, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003437}}
+.fillter-sale .table table tbody tr {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+/* line 441, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003441}}
+.fillter-sale .table table tr {
+  border: 0;
+}
+/* line 448, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003448}}
+.top-sold {
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+/* line 453, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003453}}
+.top-sold .table {
+  background: #fff;
+  border-radius: 5px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+}
+/* line 460, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003460}}
+.top-sold .table caption {
+  font-weight: bold;
+  color: #000;
+  padding: 15px;
+}
+/* line 465, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003465}}
+.top-sold .table table {
+  width: 100%;
+  text-align: center;
+}
+/* line 468, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003468}}
+.top-sold .table table thead {
+  background: #68ece0;
+}
+/* line 470, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003470}}
+.top-sold .table table thead th {
+  padding: 10px 15px;
+  text-align: center;
+}
+/* line 475, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003475}}
+.top-sold .table table tbody td {
+  padding: 10px 15px;
+}
+/* line 478, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003478}}
+.top-sold .table table tbody tr {
+  border-bottom: 1px solid #eee;
+}
+/* line 484, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003484}}
+.box-required {
+  position: fixed;
+  left: 40px;
+  bottom: 30px;
+  background: #161616;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3d3d3d), to(#161616));
+  background-image: linear-gradient(to bottom, #3d3d3d, #161616);
+  border-radius: 15px;
+  overflow: hidden;
+  width: 230px;
+  padding: 10px;
+  z-index: 99;
+}
+/* line 495, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003495}}
+.box-required .top img {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 499, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003499}}
+.box-required .top h3 {
+  display: inline-block;
+  color: #fff;
+  vertical-align: middle;
+  padding-left: 15px;
+  text-align: center;
+}
+/* line 507, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003507}}
+.box-required .bottom {
+  clear: both;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+/* line 511, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003511}}
+.box-required .bottom h2 {
+  font-weight: 600;
+  color: #fff;
+  font-size: 15px;
+}
+/* line 515, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003515}}
+.box-required .bottom h2 .fa {
+  display: inline-block;
+  color: #000;
+  background: #fff;
+  margin-left: 5px;
+  width: 15px;
+  text-align: center;
+  border-radius: 100%;
+}
+/* line 526, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003526}}
+.box-required .bottom ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  color: gray;
+}
+/* line 538, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003538}}
+.b-skills {
+  padding-top: 20px;
+  text-align: center;
+}
+/* line 545, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003545}}
+.b-skills:last-child {
+  margin-bottom: -30px;
+}
+/* line 549, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003549}}
+.skill-item {
+  position: relative;
+  max-width: 250px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+  color: #555;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+/* line 561, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003561}}
+.chart-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  margin-bottom: 15px;
+}
+/* line 570, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003570}}
+.skill-item .chart,
+.skill-item .chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+/* line 580, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003580}}
+.skill-item .chart:before {
+  content: "";
+  width: 0;
+  height: 100%;
+}
+/* line 587, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003587}}
+.skill-item .chart:before,
+.skill-item .percent {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 594, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003594}}
+.skill-item .percent {
+  position: relative;
+  line-height: 1;
+  font-size: 30px;
+  font-weight: 900;
+  z-index: 2;
+}
+/* line 603, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003603}}
+.skill-item .percent:after {
+  content: attr(data-after);
+  font-size: 15px;
+}
+/* line 609, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003609}}
+p {
+  font-weight: 400;
+}
+/* line 616, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003616}}
+.fade:not(.show) {
+  opacity: 1;
+}
+/* line 630, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003630}}
+.home-slider {
+  padding-top: 15px;
+}
+/* line 632, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003632}}
+.home-slider img {
+  max-width: 100%;
+  width: 100%;
+}
+/* line 637, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003637}}
+.mySlides {
+  display: none;
+}
+/* line 638, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003638}}
+img {
+  vertical-align: middle;
+}
+/* Slideshow container */
+/* line 641, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003641}}
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+/* line 648, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003648}}
+.slideshow-container > a {
+  text-decoration: none;
+}
+/* line 651, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003651}}
+.slideshow-container .dot-click {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
+/* Next & previous buttons */
+/* line 660, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003660}}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/* Position the "next button" to the right */
+/* line 676, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003676}}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+/* line 682, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003682}}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Caption text */
+/* line 687, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003687}}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+/* line 698, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003698}}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+/* line 707, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003707}}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+/* line 718, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003718}}
+.slideshow-container .active,
+.slideshow-container .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+/* line 723, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003723}}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  /* line 731, C:\Users\LongLe\Desktop\html\less\styles.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003731}}
+  from {
+    opacity: 0.4;
+  }
+  /* line 732, C:\Users\LongLe\Desktop\html\less\styles.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003732}}
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  /* line 736, C:\Users\LongLe\Desktop\html\less\styles.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003736}}
+  from {
+    opacity: 0.4;
+  }
+  /* line 737, C:\Users\LongLe\Desktop\html\less\styles.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003737}}
+  to {
+    opacity: 1;
+  }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  /* line 742, C:\Users\LongLe\Desktop\html\less\styles.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003742}}
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+/* line 748, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003748}}
+body {
+  background: #fff;
+  color: #282828;
+  font: 400 13px/1.35 Roboto, Helvetica Neue, Verdana, Arial, sans-serif;
+  max-width: 1920px;
+  margin: auto;
+  overflow-x: hidden;
+}
+/* line 757, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003757}}
+.header {
+  padding: 15px 50px;
+  background: #eee;
+}
+/* line 760, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003760}}
+.header .header-logo {
+  display: inline-block;
+  max-width: 350px;
+  position: relative;
+  vertical-align: top;
+}
+/* line 765, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003765}}
+.header .header-logo .logo {
+  position: absolute;
+  width: 350px;
+}
+/* line 770, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003770}}
+.header .header-container {
+  margin-bottom: 15px;
+}
+/* line 773, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003773}}
+.header .header-right {
+  text-align: right;
+}
+/* line 775, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003775}}
+.header .header-right .store {
+  display: inline-block;
+  background: #fff;
+  padding: 10px;
+}
+/* line 779, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003779}}
+.header .header-right .store .store-view > div,
+.header .header-right .store > div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* line 784, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003784}}
+.header .header-right .store .store-view > div a,
+.header .header-right .store > div a {
+  color: #333;
+  text-decoration: none;
+}
+/* line 792, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003792}}
+.header .header-right .switcher a {
+  text-decoration: none;
+  color: #444;
+}
+/* line 795, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003795}}
+.header .header-right .switcher a:hover {
+  color: #ea0000;
+}
+/* line 799, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003799}}
+.header .header-right .switcher.current a {
+  font-weight: bold;
+}
+/* line 804, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003804}}
+.header .header-botton {
+  position: relative;
+}
+/* line 806, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003806}}
+.header .header-botton .row1 {
+  display: table;
+  width: 100%;
+}
+/* line 809, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003809}}
+.header .header-botton .row1 .h-left {
+  display: table-cell;
+  width: 100%;
+  vertical-align: top;
+}
+/* line 814, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003814}}
+.header .header-botton .row1 .h-right {
+  display: table-cell;
+  width: auto;
+  min-width: 270px;
+}
+/* line 821, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003821}}
+.header .header-botton .top-search {
+  padding-left: 380px;
+}
+/* line 823, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003823}}
+.header .header-botton .top-search form {
+  width: 100%;
+  position: relative;
+}
+/* line 826, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003826}}
+.header .header-botton .top-search form .control {
+  background: #fff;
+  border-radius: 17px;
+  position: relative;
+}
+/* line 830, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003830}}
+.header .header-botton .top-search form .control input {
+  width: 100%;
+  border: 0;
+  height: 35px;
+  border-radius: 17px;
+  padding-left: 50px;
+}
+/* line 837, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003837}}
+.header .header-botton .top-search form .control label {
+  position: absolute;
+  left: 10px;
+  top: 9px;
+  color: gray;
+}
+/* line 846, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003846}}
+.header .header-botton .header-menu {
+  background: #fff;
+  display: table;
+  width: 100%;
+  margin-top: 15px;
+}
+/* line 851, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003851}}
+.header .header-botton .header-menu .vertical-menu {
+  display: table-cell;
+  width: auto;
+  min-width: 130px;
+  padding: 10px;
+  position: relative;
+}
+/* line 857, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003857}}
+.header .header-botton .header-menu .vertical-menu .dropdown {
+  opacity: 0;
+  z-index: -1;
+  display: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: absolute;
+  background: #fff;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  min-width: 270px;
+  -webkit-box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.1);
+}
+/* line 870, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003870}}
+.header .header-botton .header-menu .vertical-menu .dropdown li {
+  display: block;
+  position: relative;
+}
+/* line 873, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003873}}
+.header .header-botton .header-menu .vertical-menu .dropdown li a {
+  display: block;
+  padding: 9px;
+  color: #262626;
+  text-decoration: none;
+  /* font-size: 13px; */
+  font-weight: 400;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 882, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003882}}
+.header .header-botton .header-menu .vertical-menu .dropdown li:hover > a {
+  color: #fff;
+  background: #000;
+}
+/* line 886, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003886}}
+.header .header-botton .header-menu .vertical-menu .dropdown li:hover > .fa {
+  color: #fff;
+}
+/* line 889, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003889}}
+.header .header-botton .header-menu .vertical-menu .dropdown li .fa {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+}
+/* line 894, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003894}}
+.header .header-botton .header-menu .vertical-menu .dropdown li:hover > ul {
+  display: block;
+}
+/* line 898, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003898}}
+.header .header-botton .header-menu .vertical-menu .dropdown ul {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #fff;
+  min-width: 270px;
+  -webkit-box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+/* line 910, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003910}}
+.header .header-botton .header-menu .vertical-menu .title {
+  font-size: 17px;
+  cursor: pointer;
+}
+/* line 913, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003913}}
+.header .header-botton .header-menu .vertical-menu .title .fa {
+  margin-right: 10px;
+}
+/* line 918, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003918}}
+.header .header-botton .header-menu .vertical-menu.show .dropdown {
+  display: block;
+  opacity: 1;
+  z-index: 9;
+}
+/* line 925, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003925}}
+.header .header-botton .header-menu .helvertical-menu {
+  display: table-cell;
+  width: 100%;
+}
+/* line 929, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003929}}
+.header .header-botton .header-menu .helvertical-menu .menu-links {
+  text-align: right;
+  padding-right: 20px;
+}
+/* line 932, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003932}}
+.header .header-botton .header-menu .helvertical-menu .menu-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+/* line 935, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003935}}
+.header .header-botton .header-menu .helvertical-menu .menu-links li a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #282828;
+}
+/* line 944, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003944}}
+.header .header-botton .header-link {
+  position: relative;
+  padding-left: 30px;
+}
+/* line 947, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003947}}
+.header .header-botton .header-link ul {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+/* line 951, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003951}}
+.header .header-botton .header-link ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 23px 10px;
+  cursor: pointer;
+}
+/* line 956, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003956}}
+.header .header-botton .header-link ul li i {
+  display: block;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+/* line 966, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003966}}
+.page-columns {
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+/* line 971, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003971}}
+.page-columns .top-policies {
+  max-width: 1600px;
+  margin: auto;
+}
+/* line 975, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003975}}
+.page-columns .top-policies .p-content img {
+  margin-bottom: 15px;
+}
+/* line 978, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003978}}
+.page-columns .top-policies .p-content p {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+/* line 984, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003984}}
+.page-columns .connect-block {
+  max-width: 1600px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* line 990, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003990}}
+.page-columns .connect-block .p-content img {
+  margin-bottom: 15px;
+}
+/* line 993, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003993}}
+.page-columns .connect-block .p-content p {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+/* line 999, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\00003999}}
+.page-columns .brand {
+  max-width: 1400px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 60px;
+}
+/* line 1007, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031007}}
+.page-columns .brand h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+/* line 1012, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031012}}
+.page-columns .brand ul li {
+  display: inline-block;
+  float: left;
+  width: 10%;
+  margin-bottom: 20px;
+}
+/* line 1017, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031017}}
+.page-columns .brand ul li a {
+  display: block;
+}
+/* line 1026, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031026}}
+.page-columns .content-moreless {
+  margin: auto;
+  padding-bottom: 30px;
+  text-align: left;
+  margin-bottom: 60px;
+  max-width: 1600px;
+}
+/* line 1032, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031032}}
+.page-columns .content-moreless h1,
+.page-columns .content-moreless h2,
+.page-columns .content-moreless h3,
+.page-columns .content-moreless h4,
+.page-columns .content-moreless h5,
+.page-columns .content-moreless h6 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #282828;
+  margin: 0 0 10px;
+  margin-top: 2rem;
+}
+/* line 1040, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031040}}
+.page-columns .content-moreless #more {
+  display: none;
+}
+/* line 1043, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031043}}
+.page-columns .content-moreless #dots {
+  cursor: pointer;
+  color: #03a1a8;
+}
+/* line 1048, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031048}}
+.page-columns .content-moreless .show #more {
+  display: inline;
+}
+/* line 1051, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031051}}
+.page-columns .content-moreless .show #dots {
+  display: none !important;
+}
+/* line 1055, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031055}}
+.page-columns .content-moreless p {
+  margin-bottom: 1rem;
+}
+/* line 1060, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031060}}
+.breadcrumbs {
+  padding: 0 15px;
+  margin-top: 15px;
+}
+/* line 1063, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031063}}
+.breadcrumbs ul {
+  padding: 0;
+  max-width: 1820px;
+  margin: auto;
+}
+/* line 1067, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031067}}
+.breadcrumbs ul li {
+  margin: 0;
+  display: inline-block;
+}
+/* line 1070, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031070}}
+.breadcrumbs ul li a {
+  color: #262626;
+  font-size: 15px;
+  text-decoration: none;
+}
+/* line 1075, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031075}}
+.breadcrumbs ul li:not(:last-child):after {
+  content: "/";
+}
+/* line 1079, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031079}}
+.breadcrumbs ul li span {
+  color: #47a8b9;
+  font-size: 15px;
+}
+/* line 1086, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031086}}
+.title-heading {
+  text-align: left;
+}
+/* line 1088, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031088}}
+.title-heading h2 {
+  font-size: 25px;
+}
+/* line 1092, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031092}}
+.page-find {
+  max-width: 1820px;
+  margin: auto;
+}
+/* line 1096, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031096}}
+.filter {
+  text-align: left;
+  width: 100%;
+}
+/* line 1100, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031100}}
+.filter .box-filter {
+  padding: 5px;
+  border-radius: 30px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#8a49ef), to(#5557ef));
+  background-image: linear-gradient(to right, #8a49ef, #5557ef);
+}
+/* line 1104, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031104}}
+.filter .box-filter > div,
+.filter .box-filter > form {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 3px;
+  padding-left: 10px;
+  color: #fff;
+  padding: 5px 15px 5px;
+  border-radius: 10px;
+  position: relative;
+  min-width: 130px;
+}
+/* line 1119, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031119}}
+.filter .box-filter > div.active .dropdown,
+.filter .box-filter > form.active .dropdown {
+  display: block;
+}
+/* line 1123, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031123}}
+.filter .box-filter > div .dropdown,
+.filter .box-filter > form .dropdown {
+  position: absolute;
+  top: 39px;
+  right: 0;
+  left: auto;
+  width: 150px;
+  background: #fff;
+  z-index: 9;
+  text-align: center;
+  border-radius: 10px;
+  display: none;
+  -webkit-box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+}
+/* line 1135, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031135}}
+.filter .box-filter > div .dropdown:before,
+.filter .box-filter > form .dropdown:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #ffffff transparent;
+  position: absolute;
+  top: -9px;
+}
+/* line 1145, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031145}}
+.filter .box-filter > div .dropdown ul,
+.filter .box-filter > form .dropdown ul {
+  padding: 15px;
+}
+/* line 1148, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031148}}
+.filter .box-filter > div .dropdown li,
+.filter .box-filter > form .dropdown li {
+  margin-bottom: 10px;
+}
+/* line 1150, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031150}}
+.filter .box-filter > div .dropdown li:last-child,
+.filter .box-filter > form .dropdown li:last-child {
+  margin: 0;
+}
+/* line 1153, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031153}}
+.filter .box-filter > div .dropdown li a,
+.filter .box-filter > form .dropdown li a {
+  background: #cecece;
+  display: block;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+/* line 1159, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031159}}
+.filter .box-filter > div .dropdown li a:hover,
+.filter .box-filter > form .dropdown li a:hover {
+  color: #fff;
+  background: #5b59f7;
+}
+/* line 1168, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031168}}
+.filter .box-filter > div.active .current,
+.filter .box-filter > form.active .current {
+  color: #fff;
+}
+/* line 1172, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031172}}
+.filter .box-filter > div.active .dropdown,
+.filter .box-filter > form.active .dropdown {
+  display: block !important;
+}
+/* line 1177, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031177}}
+.filter .box-filter .tips {
+  float: right;
+  height: 33px;
+  margin-top: 8px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#5f11c5), to(#6819ae));
+  background-image: linear-gradient(to right, #5f11c5, #6819ae);
+  color: #fff;
+  padding: 0 15px;
+  margin-right: 10px;
+  border-radius: 17px;
+}
+/* line 1187, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031187}}
+.filter .box-filter .p-type {
+  cursor: pointer;
+}
+/* line 1190, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031190}}
+.filter .box-filter .current {
+  text-align: center;
+}
+/* line 1193, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031193}}
+.filter .box-filter .current .fa {
+  margin-left: 15px;
+  float: right;
+}
+/* line 1197, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031197}}
+.filter .box-filter button {
+  border: 0;
+  padding: 0;
+  background: none;
+}
+/* line 1201, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031201}}
+.filter .box-filter button .fa {
+  font-size: 11px;
+}
+/* line 1205, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031205}}
+.filter .box-filter .sort-filter .fa,
+.filter .box-filter .sort .fa {
+  font-size: 25px;
+}
+/* line 1209, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031209}}
+.filter .box-filter .sort-filter,
+.filter .box-filter .sort {
+  padding: 0;
+  border: 0;
+  background: 0;
+}
+/* line 1215, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031215}}
+.filter .box-filter .quick-search {
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  border: 0;
+  background: 0;
+}
+/* line 1222, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031222}}
+.filter .box-filter .quick-search input {
+  border: 1px solid #ddd;
+  height: 50px;
+  padding: 0 10px;
+  float: left;
+  padding-left: 55px;
+  width: 320px;
+}
+/* line 1229, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031229}}
+.filter .box-filter .quick-search button {
+  background: #009eff;
+  color: #fff;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  border-radius: 100%;
+  background: #8c4af2;
+}
+/* line 1240, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031240}}
+.filter .box-filter .quick-search button .fa {
+  font-size: 16px;
+}
+/* line 1245, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031245}}
+.filter .box-filter select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-image: url(../images/arrows-bg.svg), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: url(../images/arrows-bg.svg), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff);
+  background-position: calc(100% - 12px) -34px, 100%, calc(100% - 3.2rem) 0;
+  background-size: auto, 3.2rem 100%, 1px 100%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-width: 8.5rem;
+  -webkit-transition: border-color 0.1s linear;
+  transition: border-color 0.1s linear;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 1px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #303030;
+  font-size: 1.4rem;
+  font-weight: 400;
+  height: auto;
+  line-height: 1.36;
+  padding: 0.6rem 1rem 0.6rem 0;
+  cursor: pointer;
+  padding-right: 4.4rem;
+}
+/* line 1248, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031248}}
+.filter .box-filter .columns {
+  padding-left: 0;
+  border-color: #009eff;
+}
+/* line 1252, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031252}}
+.filter .box-filter .columns button {
+  height: 31px;
+  padding: 0 10px;
+  color: #009eff;
+}
+/* line 1256, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031256}}
+.filter .box-filter .columns button:hover {
+  background: #009eff;
+  color: #fff;
+}
+/* line 1264, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031264}}
+.filter .more-button {
+  margin-top: 15px;
+  text-align: right;
+}
+/* line 1267, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031267}}
+.filter .more-button .left {
+  float: left;
+}
+/* line 1270, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031270}}
+.filter .more-button button {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 7px 13px;
+  background: #fff;
+  border-radius: 17px;
+  color: #5e55ef;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 1278, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031278}}
+.filter .more-button button:hover {
+  background: #5e55ef;
+  color: #fff;
+}
+/* line 1290, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031290}}
+.box-shadow {
+  -webkit-box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+}
+/* line 1293, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031293}}
+.color {
+  background: #009eff;
+}
+/* line 1296, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031296}}
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-image: url(../images/arrows-bg.svg), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: url(../images/arrows-bg.svg), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff);
+  background-position: calc(100% - 12px) -34px, 100%, calc(100% - 3.2rem) 0;
+  background-size: auto, 3.2rem 100%, 1px 100%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-width: 8.5rem;
+  -webkit-transition: border-color 0.1s linear;
+  transition: border-color 0.1s linear;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 1px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #303030;
+  font-size: 1.4rem;
+  font-weight: 400;
+  height: auto;
+  line-height: 1.36;
+  padding: 0.6rem 1rem 0.6rem 0;
+  cursor: pointer;
+  padding-right: 4.4rem;
+}
+/* line 1325, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031325}}
+.color2 {
+  background: #3bacbe;
+}
+/* .roundedTwo */
+/* line 1331, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031331}}
+.select-p {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin: 0;
+  background: #fcfff4;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fcfff4), color-stop(40%, #dfe5d7), to(#b3bead));
+  background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  border-radius: 50px;
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  z-index: 1;
+  border: 2px solid #6757f8;
+}
+/* line 1344, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031344}}
+.select-p label {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6757f8), to(#6757f8));
+  background: linear-gradient(top, #6757f8 0%, #6757f8 100%);
+  border-radius: 50px;
+  opacity: 0;
+}
+/* line 1354, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031354}}
+.select-p label:after {
+  content: '';
+  width: 9px;
+  height: 5px;
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  border: 3px solid #fcfff4;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  opacity: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+/* line 1368, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031368}}
+.select-p label:hover::after {
+  opacity: 0.3;
+}
+/* line 1372, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031372}}
+.select-p input[type=checkbox] {
+  visibility: hidden;
+}
+/* line 1374, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031374}}
+.select-p input[type=checkbox]:checked + label,
+.select-p input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+/* line 1381, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031381}}
+.list-product {
+  margin-top: 30px;
+}
+/* line 1383, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031383}}
+.list-product .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 1387, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031387}}
+.list-product .item {
+  width: 20%;
+  padding: 0 15px;
+  position: relative;
+  margin-bottom: 30px;
+}
+/* line 1392, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031392}}
+.list-product .item .item-inner {
+  background: #fff;
+  padding: 10px;
+  border-radius: 15px;
+  position: relative;
+}
+/* line 1399, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031399}}
+.list-product .item .product-images img {
+  max-width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+/* line 1405, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031405}}
+.list-product .item .product-info {
+  text-align: left;
+  display: table;
+  width: 100%;
+  vertical-align: middle;
+}
+/* line 1410, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031410}}
+.list-product .item .product-info .left {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 1414, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031414}}
+.list-product .item .product-info .right {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+/* line 1419, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031419}}
+.list-product .item .product-info .product-name {
+  margin: 10px 0 5px;
+  max-height: 44px;
+  overflow: hidden;
+}
+/* line 1423, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031423}}
+.list-product .item .product-info .product-name a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 1428, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031428}}
+.list-product .item .product-info .product-name a:hover {
+  color: #5d59f8;
+}
+/* line 1433, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031433}}
+.list-product .item .product-info p {
+  font-size: 10px;
+  margin: 0;
+  white-space: nowrap;
+}
+/* line 1438, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031438}}
+.list-product .item .product-info .price-box {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+/* line 1441, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031441}}
+.list-product .item .product-info .price-box > div {
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: -1px;
+  margin-right: 0;
+}
+/* line 1449, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031449}}
+.list-product .item .product-info .price-box .special-price {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+/* line 1453, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031453}}
+.list-product .item .product-info .price-box .old-price {
+  font-size: 10px;
+}
+/* line 1455, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031455}}
+.list-product .item .product-info .price-box .old-price span {
+  color: #41362f;
+}
+/* line 1459, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031459}}
+.list-product .item .product-info .price-box span {
+  color: #3bacbe;
+}
+/* line 1463, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031463}}
+.list-product .item .product-info .free-shipping {
+  margin-bottom: 10px;
+}
+/* line 1465, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031465}}
+.list-product .item .product-info .free-shipping img {
+  max-height: 21px;
+}
+/* line 1469, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031469}}
+.list-product .item .product-info .sku {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+/* line 1473, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031473}}
+.list-product .item .product-info .action {
+  display: table;
+  width: 100%;
+  vertical-align: middle;
+}
+/* line 1477, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031477}}
+.list-product .item .product-info .action button {
+  display: table-cell;
+  width: calc(50% - 5px);
+  vertical-align: middle;
+  background: #3bacbe;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  height: 35px;
+  font-weight: 600;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 1488, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031488}}
+.list-product .item .product-info .action button:hover {
+  background: #000;
+}
+/* line 1491, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031491}}
+.list-product .item .product-info .action button .fa {
+  margin-right: 5px;
+  font-size: 20px;
+}
+/* line 1495, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031495}}
+.list-product .item .product-info .action button:first-child {
+  margin-right: 10px;
+}
+/* line 1503, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031503}}
+.page-my-product {
+  max-width: 1820px;
+  margin: auto;
+}
+/* line 1506, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031506}}
+.page-my-product .table-list-product {
+  background: #fff;
+  padding-top: 0;
+  margin-top: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+}
+/* line 1515, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031515}}
+.table-list-product {
+  margin-top: 15px;
+  background: #fff;
+  -webkit-box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+}
+/* line 1521, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031521}}
+.table-list-product .data-gird {
+  width: 100%;
+}
+/* line 1523, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031523}}
+.table-list-product .data-gird thead {
+  background-image: -webkit-gradient(linear, left top, right top, from(#8a49ef), to(#5557ef));
+  background-image: linear-gradient(to right, #8a49ef, #5557ef);
+}
+/* line 1526, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031526}}
+.table-list-product .data-gird th {
+  white-space: nowrap;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+/* line 1531, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031531}}
+.table-list-product .data-gird th button {
+  background: none;
+  padding: 0;
+  border: 0;
+}
+/* line 1536, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031536}}
+.table-list-product .data-gird th input,
+.table-list-product .data-gird th button,
+.table-list-product .data-gird th span {
+  display: inline-block;
+}
+/* line 1541, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031541}}
+.table-list-product .data-gird th button {
+  color: #fff;
+}
+/* line 1546, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031546}}
+.table-list-product .data-gird tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+/* line 1550, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031550}}
+.table-list-product .data-gird tbody tr td {
+  padding: 10px;
+}
+/* line 1552, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031552}}
+.table-list-product .data-gird tbody tr td img {
+  max-width: 60px;
+}
+/* line 1560, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031560}}
+.page-listing {
+  max-width: 1820px;
+  margin: auto;
+}
+/* line 1563, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031563}}
+.page-listing .table-list-product {
+  margin-top: 30px;
+  background: #fff;
+  border-radius: 15px;
+  padding-top: 0;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+}
+/* line 1571, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031571}}
+.page-listing .table-list-product .data-gird tbody tr td img {
+  width: auto;
+  max-width: none;
+}
+/* line 1575, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031575}}
+.page-listing .table-list-product .data-gird tbody tr td.right {
+  border-right: 1px solid #ddd;
+}
+/* line 1578, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031578}}
+.page-listing .table-list-product .data-gird tbody tr td {
+  color: gray;
+}
+/* line 1580, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031580}}
+.page-listing .table-list-product .data-gird tbody tr td input {
+  max-width: 50px;
+  text-align: center;
+  height: 35px;
+  border: 1px solid #ddd;
+}
+/* line 1587, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031587}}
+.page-listing .table-list-product .data-gird tbody tr td ul li {
+  display: inline-block;
+}
+/* line 1589, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031589}}
+.page-listing .table-list-product .data-gird tbody tr td ul li a {
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 1595, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031595}}
+.page-listing .table-list-product .data-gird tbody tr td button.listing {
+  padding: 7px 15px;
+  color: #fff;
+  background: #aba5a5;
+  border: 0;
+  font-weight: 600;
+  border-radius: 5px;
+}
+/* line 1603, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031603}}
+.page-listing .table-list-product .data-gird tbody tr td button.sync {
+  border: 0;
+  padding: 0;
+  background: none;
+  color: #aba5a5;
+}
+/* line 1609, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031609}}
+.page-listing .table-list-product .data-gird tbody tr td button.sync .fa {
+  font-size: 25px;
+}
+/* line 1615, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031615}}
+.page-place-order {
+  max-width: 1820px;
+  margin: auto;
+}
+/* line 1620, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031620}}
+.page-place-order .table-list-product .data-gird thead th {
+  text-align: left;
+}
+/* line 1624, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031624}}
+.page-place-order .table-list-product .data-gird {
+  border: 1px solid #ddd;
+  border-bottom: 0;
+}
+/* line 1628, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031628}}
+.page-place-order .table-list-product .data-gird tbody tr {
+  border: 0;
+}
+/* line 1630, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031630}}
+.page-place-order .table-list-product .data-gird tbody tr td {
+  text-align: left;
+}
+/* line 1632, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031632}}
+.page-place-order .table-list-product .data-gird tbody tr td:nth-child(1) {
+  width: 350px;
+}
+/* line 1635, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031635}}
+.page-place-order .table-list-product .data-gird tbody tr td:nth-child(2) {
+  width: 100px;
+}
+/* line 1638, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031638}}
+.page-place-order .table-list-product .data-gird tbody tr td:nth-child(3) {
+  width: 100px;
+}
+/* line 1641, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031641}}
+.page-place-order .table-list-product .data-gird tbody tr td:nth-child(4) {
+  width: 100px;
+}
+/* line 1644, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031644}}
+.page-place-order .table-list-product .data-gird tbody tr td:nth-child(5) {
+  width: 100px;
+}
+/* line 1647, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031647}}
+.page-place-order .table-list-product .data-gird tbody tr td input {
+  border: 1px solid #ddd;
+  height: 35px;
+}
+/* line 1651, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031651}}
+.page-place-order .table-list-product .data-gird tbody tr td input.quick-search {
+  width: 100%;
+}
+/* line 1654, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031654}}
+.page-place-order .table-list-product .data-gird tbody tr td input.qty {
+  width: 60px;
+}
+/* line 1658, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031658}}
+.page-place-order .table-list-product .data-gird tbody tr td button.to-cart {
+  border: 0;
+  background: #5e55ef;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 1666, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031666}}
+.page-place-order .table-list-product .data-gird tbody tr td button.to-cart:hover {
+  background: #000;
+}
+/* line 1670, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031670}}
+.page-place-order .table-list-product .data-gird tbody tr td .btn-remove {
+  border: 1px solid #444;
+  background: none;
+  width: 30px;
+  height: 30px;
+  color: red;
+  border-radius: 50%;
+}
+/* line 1683, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031683}}
+table.add-item {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-top: 0;
+  text-align: left;
+  margin-bottom: 15px;
+}
+/* line 1689, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031689}}
+table.add-item tr td {
+  padding: 10px;
+}
+/* line 1691, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031691}}
+table.add-item tr td button {
+  background: #5e55ef;
+  border: 0;
+  padding: 10px 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 1700, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031700}}
+table.add-item tr td button:hover {
+  background: #000;
+}
+/* line 1703, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031703}}
+table.add-item tr td button .fa {
+  margin-right: 5px;
+}
+/* line 1706, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031706}}
+table.add-item tr td button.add-all {
+  float: right;
+}
+/* line 1712, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031712}}
+.uploadcsv_wrap {
+  display: inline-block;
+}
+/* line 1715, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031715}}
+.uploadcsv_wrap > input {
+  height: 1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+/* line 1722, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031722}}
+.uploadcsv_wrap > label {
+  background: #5e55ef;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 1729, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031729}}
+.uploadcsv_wrap > label:hover {
+  background: #000;
+}
+/* line 1733, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031733}}
+table.bulkadd-csv {
+  width: 100%;
+  text-align: left;
+}
+/* line 1737, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031737}}
+table.bulkadd-csv tr td {
+  padding: 10px;
+}
+/* line 1739, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031739}}
+table.bulkadd-csv tr td a {
+  margin-left: 10px;
+  color: #262626;
+  text-decoration: none;
+}
+/* line 1743, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031743}}
+table.bulkadd-csv tr td a .fa {
+  margin-right: 5px;
+}
+/* line 1747, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031747}}
+table.bulkadd-csv tr td.view-cart {
+  text-align: right;
+}
+/* line 1749, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031749}}
+table.bulkadd-csv tr td.view-cart a {
+  background: #f67b6b;
+  color: #fff !important;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px;
+  text-transform: uppercase;
+}
+/* line 1761, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031761}}
+.batch-order {
+  font-size: 14px;
+  text-align: left;
+}
+/* line 1764, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031764}}
+.batch-order p {
+  font-size: 14px;
+}
+/* line 1767, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031767}}
+.batch-order a {
+  color: #262626;
+  text-decoration: none;
+}
+/* line 1770, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031770}}
+.batch-order a .fa {
+  margin-right: 5px;
+}
+/* line 1774, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031774}}
+.batch-order button {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -moz-box-shadow: none;
+  border-radius: 4px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  padding: 7px 15px;
+  min-height: auto;
+  text-transform: uppercase;
+  background: #5e55ef;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 1789, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031789}}
+.batch-order button:hover {
+  background: #000;
+}
+/* line 1794, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031794}}
+.page-order-history {
+  max-width: 1820px;
+  margin: auto;
+  text-align: left;
+}
+/* line 1798, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031798}}
+.page-order-history .store {
+  margin-top: 30px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+/* line 1802, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031802}}
+.page-order-history .store ul {
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+}
+/* line 1808, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031808}}
+.page-order-history .store ul li {
+  font-size: 16px;
+  padding: 15px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #222;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  float: left;
+  cursor: pointer;
+}
+/* line 1821, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031821}}
+.page-order-history .store ul li:hover,
+.page-order-history .store ul li.current {
+  background: #5e55ef;
+  color: #fff;
+}
+/* line 1829, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031829}}
+.page-order-history .order-status {
+  margin-top: 30px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+/* line 1833, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031833}}
+.page-order-history .order-status ul {
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+}
+/* line 1839, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031839}}
+.page-order-history .order-status ul li {
+  font-size: 16px;
+  padding: 15px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #222;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  float: left;
+  cursor: pointer;
+}
+/* line 1852, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031852}}
+.page-order-history .order-status ul li:hover,
+.page-order-history .order-status ul li.current {
+  background: #5e55ef;
+  color: #fff;
+}
+/* line 1858, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031858}}
+.page-order-history .order-status ul li span:after {
+  content: ")";
+  display: inline-block;
+}
+/* line 1862, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031862}}
+.page-order-history .order-status ul li span:before {
+  content: "(";
+  display: inline-block;
+}
+/* line 1871, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031871}}
+.order-filter {
+  display: inline-block;
+  width: 100%;
+}
+/* line 1874, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031874}}
+.order-filter .data-fillter-top {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+/* line 1879, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031879}}
+.order-filter .field {
+  float: left;
+  position: static;
+  margin-bottom: 10px;
+}
+/* line 1883, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031883}}
+.order-filter .field input {
+  min-width: 250px;
+  width: auto;
+  text-transform: capitalize;
+  border-color: #767676;
+  margin-right: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 1897, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031897}}
+.order-filter button {
+  border: 1px solid #5e55ef;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -moz-box-shadow: none;
+  border-radius: 4px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  padding: 7px 15px;
+  min-height: auto;
+  text-transform: uppercase;
+  background: #5e55ef;
+  color: #fff;
+  font-size: 14px;
+  height: 35px;
+}
+/* line 1916, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031916}}
+.table-list-order {
+  margin-top: 30px;
+}
+/* line 1918, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031918}}
+.table-list-order .top-form {
+  display: inline-block;
+}
+/* line 1920, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031920}}
+.table-list-order .top-form button {
+  border: 1px solid #5e55ef;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -moz-box-shadow: none;
+  border-radius: 4px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  padding: 7px 15px;
+  min-height: auto;
+  text-transform: uppercase;
+  background: #5e55ef;
+  color: #fff;
+  font-size: 14px;
+  height: 35px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 1937, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031937}}
+.table-list-order .top-form button:hover {
+  background: #000;
+  border-color: #000;
+}
+/* line 1943, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031943}}
+.table-list-order .toolbar {
+  display: inline-block;
+  float: right;
+}
+/* line 1946, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031946}}
+.table-list-order .toolbar .toolbar-amount-custom {
+  line-height: initial;
+  color: #000;
+  padding-right: 5px;
+  line-height: 35px;
+}
+/* line 1953, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031953}}
+.table-list-order .box-order {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #e9eaec;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.08);
+}
+/* line 1964, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031964}}
+.table-list-order .box-order table {
+  width: 100%;
+  border: 1px solid #ddd !important;
+}
+/* line 1968, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031968}}
+.table-list-order .box-order table tr th {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  font-weight: 400;
+}
+/* line 1973, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031973}}
+.table-list-order .box-order table tr td {
+  padding: 10px;
+}
+/* line 1980, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031980}}
+.data-grid .data-grid-multicheck-cell {
+  padding: 1rem 1rem 0.9rem;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 1986, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000031986}}
+.data-grid-multicheck-cell .action-menu {
+  left: -1.1rem;
+  margin-top: 1px;
+  right: auto;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #007bdb;
+  border-radius: 1px;
+  -webkit-box-shadow: 1px 1px 5px #000000;
+          box-shadow: 1px 1px 5px #000000;
+  color: #41362f;
+  font-weight: 400;
+  list-style: none;
+  margin: 2px 0 0;
+  min-width: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+/* line 2004, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032004}}
+.data-grid-multicheck-cell .action-menu li {
+  border: none;
+  padding: 0;
+  -webkit-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
+  cursor: pointer;
+  display: block;
+  padding: 0.6875em 1em;
+  white-space: nowrap;
+}
+/* line 2017, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032017}}
+.data-grid-multicheck-cell .action-multicheck-wrap {
+  display: inline-block;
+  height: 1.6rem;
+  padding-top: 1px;
+  position: relative;
+  width: 3.1rem;
+  z-index: 200;
+}
+/* line 2025, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032025}}
+.data-grid-multicheck-cell .action-multicheck-wrap.active .action-menu {
+  display: block;
+}
+/* line 2029, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032029}}
+.data-grid-multicheck-cell .action-multicheck-wrap input {
+  float: left;
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 0;
+  border: 1px solid #adadad;
+  margin: 0;
+  cursor: pointer;
+}
+/* line 2038, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032038}}
+.data-grid-multicheck-cell .action-multicheck-wrap label {
+  float: left;
+  cursor: pointer;
+  display: inline-block;
+}
+/* line 2042, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032042}}
+.data-grid-multicheck-cell .action-multicheck-wrap label:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 1px;
+  content: '';
+  font-size: 0;
+  -webkit-transition: font-size 0.1s ease-out, color 0.1s ease-out, border-color 0.1s linear;
+  transition: font-size 0.1s ease-out, color 0.1s ease-out, border-color 0.1s linear;
+  background-color: #ffffff;
+  border: 1px solid #adadad;
+  color: transparent;
+  float: left;
+  height: 1.6rem;
+  text-align: center;
+  vertical-align: top;
+  width: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Admin Icons';
+  font-style: normal;
+  line-height: 1;
+  speak: none;
+}
+/* line 2063, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032063}}
+.data-grid-multicheck-cell .action-multicheck-wrap button {
+  border: 1px solid;
+  display: inline-block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.36;
+  text-align: center;
+  vertical-align: baseline;
+  padding-right: 3rem;
+  border-radius: 0 1px 1px 0;
+  height: 1.6rem;
+  margin-left: -1px;
+  padding: 0;
+  position: relative;
+  -webkit-transition: border-color 0.1s linear;
+  transition: border-color 0.1s linear;
+  width: 1.6rem;
+  float: left;
+  background: #e3e3e3;
+  border-color: #adadad;
+  color: #514943;
+}
+/* line 2084, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032084}}
+.data-grid-multicheck-cell .action-multicheck-wrap button:focus {
+  border-color: #007bdb;
+  background-color: #dbdbdb;
+  color: #514943;
+  text-decoration: none;
+}
+/* line 2090, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032090}}
+.data-grid-multicheck-cell .action-multicheck-wrap button span {
+  display: none;
+}
+/* line 2093, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032093}}
+.data-grid-multicheck-cell .action-multicheck-wrap button:after {
+  border-color: #000000 transparent transparent transparent;
+  border-style: solid;
+  border-width: 0.5rem 0.4rem 0 0.4rem;
+  content: '';
+  height: 0;
+  margin-top: -0.2rem;
+  position: absolute;
+  right: 1.1rem;
+  top: 50%;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  width: 0;
+  right: 0.3rem;
+}
+/* line 2110, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032110}}
+.data-grid-multicheck-cell .action-menu {
+  left: -1.1rem;
+  margin-top: 1px;
+  right: auto;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #007bdb;
+  border-radius: 1px;
+  -webkit-box-shadow: 1px 1px 5px #000000;
+          box-shadow: 1px 1px 5px #000000;
+  color: #41362f;
+  font-weight: 400;
+  list-style: none;
+  margin: 2px 0 0;
+  min-width: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+/* line 2128, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032128}}
+.data-grid-multicheck-cell .action-menu li {
+  border: none;
+  padding: 0;
+  -webkit-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
+  cursor: pointer;
+  display: block;
+  padding: 0.6875em 1em;
+  white-space: nowrap;
+}
+/* line 2141, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032141}}
+.page-order-detail {
+  max-width: 1820px;
+  margin: auto;
+  text-align: left;
+}
+/* line 2145, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032145}}
+.page-order-detail .title-heading {
+  margin-bottom: 15px;
+}
+/* line 2148, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032148}}
+.page-order-detail .order-date {
+  margin-bottom: 15px;
+}
+/* line 2152, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032152}}
+.page-order-detail .order-actions-toolbar a {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #3bacbd;
+  color: #fff !important;
+  margin-right: 10px !important;
+  text-decoration: none;
+}
+/* line 2161, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032161}}
+.page-order-detail .type-order {
+  margin-top: 30px;
+}
+/* line 2163, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032163}}
+.page-order-detail .type-order ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 2168, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032168}}
+.page-order-detail .type-order ul li {
+  display: inline-block;
+  line-height: 40px;
+  float: left;
+  margin-left: -1px;
+  vertical-align: top;
+}
+/* line 2174, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032174}}
+.page-order-detail .type-order ul li a {
+  background: #f6f6f6;
+  color: #6d6d6d;
+  border: 1px solid #e9eaec;
+  display: block;
+  font-weight: 400;
+  padding: 1px 35px;
+  text-decoration: none;
+}
+/* line 2183, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032183}}
+.page-order-detail .type-order ul li:hover a,
+.page-order-detail .type-order ul li.current a {
+  background: #fff;
+  color: #000;
+  border-bottom: 1px solid #fff;
+}
+/* line 2192, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032192}}
+.page-order-detail .table-list-order {
+  margin-bottom: 30px;
+  margin-top: -1px;
+}
+/* line 2195, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032195}}
+.page-order-detail .table-list-order .box-order {
+  margin-top: 0;
+  border-top-left-radius: 0;
+}
+/* line 2199, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032199}}
+.page-order-detail .table-list-order .right {
+  text-align: right;
+}
+/* line 2202, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032202}}
+.page-order-detail .table-list-order p {
+  margin-bottom: 0;
+}
+/* line 2205, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032205}}
+.page-order-detail .table-list-order td .price {
+  font-weight: bold;
+}
+/* line 2210, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032210}}
+.page-order-detail .table-list-order td .excl-price {
+  font-size: 11px;
+  font-weight: bold;
+}
+/* line 2213, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032213}}
+.page-order-detail .table-list-order td .excl-price span {
+  font-weight: normal;
+}
+/* line 2218, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032218}}
+.page-order-detail .table-list-order strong {
+  font-weight: bold;
+}
+/* line 2221, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032221}}
+.page-order-detail .table-list-order tfoot {
+  border-top: 1px solid #ddd;
+}
+/* line 2224, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032224}}
+.page-order-detail .table-list-order tfoot tr td,
+.page-order-detail .table-list-order tfoot tr th {
+  border: 0;
+  background: none;
+  text-align: right;
+}
+/* line 2234, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032234}}
+.title-heading .order-status {
+  display: inline-block;
+  font-size: 14px;
+  border: 1px solid #f70;
+  border-radius: 0;
+  color: #fffffe;
+  text-transform: capitalize;
+  background: #ff7700;
+  padding: 5px 6px;
+  vertical-align: top;
+}
+/* line 2245, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032245}}
+.block-order-details-view {
+  margin-bottom: 2rem;
+  padding: 20px;
+  border: 1px solid #e9eaec;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  width: 100%;
+}
+/* line 2257, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032257}}
+.block-order-details-view .block-title {
+  color: #282828;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e9eaec;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+/* line 2267, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032267}}
+.block-order-details-view .block-content .box {
+  clear: none !important;
+  float: left !important;
+  width: 25% !important;
+  padding: 0 10px;
+}
+/* line 2272, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032272}}
+.block-order-details-view .block-content .box .box-title {
+  display: inline-block;
+  margin: 0 0 5px;
+  font-weight: 700;
+}
+/* line 2277, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032277}}
+.block-order-details-view .block-content .box dt {
+  font-weight: 400;
+}
+/* line 2283, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032283}}
+.page-wallet {
+  max-width: 1820px;
+  margin: auto;
+}
+/* line 2286, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032286}}
+.page-wallet .wallet_wrapper {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 15px;
+  background: #fff;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+}
+/* line 2294, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032294}}
+.page-wallet .wallet_wrapper .wallet {
+  padding: 10px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+/* line 2301, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032301}}
+.page-wallet .wallet_wrapper .wallet .wallet-icon {
+  width: 50px;
+  float: left;
+}
+/* line 2304, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032304}}
+.page-wallet .wallet_wrapper .wallet .wallet-icon img {
+  width: 50px;
+  margin-top: 15px;
+}
+/* line 2309, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032309}}
+.page-wallet .wallet_wrapper .wallet .wallet-amt {
+  width: calc(100% - 50px);
+  float: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 10px;
+}
+/* line 2314, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032314}}
+.page-wallet .wallet_wrapper .wallet .wallet-amt strong {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+/* line 2319, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032319}}
+.page-wallet .wallet_wrapper .wallet .wallet-amt .wallet-amount {
+  font-size: 15px;
+  color: #525252;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* line 2325, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032325}}
+.page-wallet .wallet_wrapper .wallet .wallet-amt .amt-content {
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: #666;
+}
+/* line 2330, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032330}}
+.page-wallet .wallet_wrapper .wallet .wallet-amt .add-amount {
+  position: relative;
+}
+/* line 2332, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032332}}
+.page-wallet .wallet_wrapper .wallet .wallet-amt .add-amount a {
+  float: right;
+  width: auto;
+  text-decoration: none !important;
+  border: 0;
+  font-size: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  height: 33px;
+  display: inline-block;
+  color: #fff !important;
+  padding: 0 14px !important;
+  vertical-align: middle;
+  line-height: 33px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 4px;
+  background: #5e55ef;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 2353, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032353}}
+.page-wallet .wallet_wrapper .wallet .wallet-amt .add-amount a:hover {
+  background: #000;
+}
+/* line 2362, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032362}}
+.page-wallet .wallet-action {
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+/* line 2367, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032367}}
+.page-wallet .wallet-action .button-action {
+  float: left;
+}
+/* line 2369, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032369}}
+.page-wallet .wallet-action .button-action button {
+  width: auto;
+  text-decoration: none !important;
+  border: 0;
+  font-size: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  height: 33px;
+  display: inline-block;
+  color: #fff !important;
+  padding: 0 14px !important;
+  vertical-align: middle;
+  line-height: 33px;
+  border-radius: 4px;
+  background: #5e55ef;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 2385, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032385}}
+.page-wallet .wallet-action .button-action button:hover {
+  background: #000;
+}
+/* line 2389, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032389}}
+.page-wallet .wallet-action .button-action p {
+  display: inline-block;
+  line-height: 33px;
+  margin-left: 15px;
+}
+/* line 2395, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032395}}
+.page-wallet .wallet-action .toolbar {
+  float: right;
+}
+/* line 2397, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032397}}
+.page-wallet .wallet-action .toolbar select {
+  display: inline-block;
+  -webkit-appearance: none;
+          appearance: none;
+  -moz-appearance: none;
+  background-image: url(../images/arrows-bg.svg), -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#e3e3e3)), -webkit-gradient(linear, left top, left bottom, from(#adadad), to(#adadad));
+  background-image: url(../images/arrows-bg.svg), linear-gradient(#e3e3e3, #e3e3e3), linear-gradient(#adadad, #adadad);
+  background-position: calc(100% - 12px) -34px, 100% center, calc(100% - 3.2rem) 0;
+  background-repeat: no-repeat;
+  background-size: auto auto, 3.2rem 100%, 1px 100%;
+  max-width: 100%;
+  min-width: 8.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 4.4rem;
+  padding-top: 0.5rem;
+  -webkit-transition: border-color 0.1s linear 0s;
+  transition: border-color 0.1s linear 0s;
+  border: 1px solid #ddd;
+  padding: 8px 33px 8px 10px;
+}
+/* line 2414, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032414}}
+.page-wallet .wallet-action .toolbar label {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+/* line 2419, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032419}}
+.page-wallet .wallet-action .toolbar .pager {
+  display: inline-block;
+}
+/* line 2421, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032421}}
+.page-wallet .wallet-action .toolbar .pager button {
+  background: #e3e3e3;
+  color: #514943;
+  border: 1px solid;
+  border-radius: 0;
+  display: inline-block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.36;
+  padding: 7px 14px 7px 20px;
+  text-align: center;
+  vertical-align: baseline;
+  border-color: #adadad;
+  margin-right: 0;
+  text-indent: -0.25em;
+}
+/* line 2438, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032438}}
+.page-wallet .wallet-action .toolbar .pager input {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+/* line 2444, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032444}}
+.page-wallet .wallet-action .toolbar .pager input[disabled] {
+  opacity: 0.3;
+}
+/* line 2450, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032450}}
+.page-wallet .table-list-product .data-gird {
+  text-align: left;
+}
+/* line 2455, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032455}}
+.page-wallet .table-list-product .data-gird thead tr th {
+  text-align: left;
+  color: #fff;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+/* line 2461, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032461}}
+.page-wallet .table-list-product .data-gird thead tr th input {
+  background: none;
+  border: 1px solid #ddd;
+  height: 30px;
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+}
+/* line 2469, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032469}}
+.page-wallet .table-list-product .data-gird thead tr th select {
+  border: 1px solid #ddd;
+  background: none;
+  line-height: 35px;
+  height: 30px;
+}
+/* line 2478, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032478}}
+.page-wallet .table-list-product .data-gird thead tr:nth-child(2) th {
+  background: #f5f5f5;
+  border-color: #ddd;
+}
+/* line 2487, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032487}}
+.page-wallet .table-list-product .data-gird tbody tr td {
+  border-right: 1px solid #ddd;
+}
+/* line 2495, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032495}}
+.slideThree {
+  width: 80px;
+  height: 26px;
+  background: #fff;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 50px;
+  border: 1px solid #009eff;
+  -webkit-box-shadow: inset 2px 1px 4px rgba(0, 0, 0, 0.1), 0px 1px 0px #ffffff;
+          box-shadow: inset 2px 1px 4px rgba(0, 0, 0, 0.1), 0px 1px 0px #ffffff;
+}
+/* line 2504, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032504}}
+.slideThree:after {
+  content: 'OFF';
+  color: #000;
+  position: absolute;
+  right: 10px;
+  z-index: 0;
+  font: 12px/26px Arial, sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.15);
+}
+/* line 2514, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032514}}
+.slideThree:before {
+  content: 'ON';
+  color: green;
+  position: absolute;
+  left: 10px;
+  z-index: 0;
+  font: 12px/26px Arial, sans-serif;
+  font-weight: bold;
+}
+/* line 2523, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032523}}
+.slideThree label {
+  display: block;
+  width: 34px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  z-index: 1;
+  background: #009eff;
+  border-radius: 50px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+/* line 2538, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032538}}
+.slideThree input[type=checkbox] {
+  visibility: hidden;
+}
+/* line 2540, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032540}}
+.slideThree input[type=checkbox]:checked + label {
+  left: 42px;
+}
+/* line 2545, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032545}}
+.page-channel {
+  max-width: 1400px;
+  margin: auto;
+}
+/* line 2548, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032548}}
+.page-channel .table-list-product .data-gird {
+  -webkit-box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 13px rgba(0, 0, 0, 0.2);
+}
+/* line 2550, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032550}}
+.page-channel .table-list-product .data-gird img {
+  width: auto;
+  max-width: 100%;
+}
+/* line 2559, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032559}}
+.page-channel .title-heading h2 {
+  display: inline-block;
+}
+/* line 2563, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032563}}
+.page-channel .title-heading button {
+  float: right;
+  width: auto;
+  text-decoration: none !important;
+  border: 0;
+  font-size: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  height: 33px;
+  display: inline-block;
+  background: #009eff;
+  color: #fff !important;
+  padding: 0 14px !important;
+  vertical-align: middle;
+  line-height: 33px;
+  border-radius: 4px;
+}
+/* line 2582, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032582}}
+.detais-product {
+  background: #fff;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  padding: 40px 20px;
+}
+/* line 2588, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032588}}
+.detais-product .images-product {
+  display: table;
+  width: 100%;
+}
+/* line 2591, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032591}}
+.detais-product .images-product .thumnail {
+  width: 90px;
+  min-width: 90px;
+  display: table-cell;
+  padding-right: 15px;
+  vertical-align: top;
+}
+/* line 2597, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032597}}
+.detais-product .images-product .thumnail ul {
+  padding: 0;
+}
+/* line 2599, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032599}}
+.detais-product .images-product .thumnail ul li {
+  margin-bottom: 10px;
+}
+/* line 2601, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032601}}
+.detais-product .images-product .thumnail ul li a {
+  border-radius: 5px;
+  display: block;
+}
+/* line 2605, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032605}}
+.detais-product .images-product .thumnail ul li a img {
+  border-radius: 5px;
+}
+/* line 2612, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032612}}
+.detais-product .images-product .thumnail img {
+  display: block;
+  max-width: 100%;
+}
+/* line 2617, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032617}}
+.detais-product .images-product .main-images {
+  display: table-cell;
+  width: 100%;
+}
+/* line 2620, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032620}}
+.detais-product .images-product .main-images img {
+  display: block;
+  max-width: 100%;
+  border-radius: 20px;
+}
+/* line 2627, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032627}}
+.detais-product .details-content {
+  padding-left: 40px;
+  text-align: left;
+}
+/* line 2630, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032630}}
+.detais-product .details-content .price-box {
+  margin: 30px 0;
+}
+/* line 2632, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032632}}
+.detais-product .details-content .price-box .price {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 50px;
+  font-weight: bold;
+  color: #5d59f8;
+}
+/* line 2639, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032639}}
+.detais-product .details-content .price-box .save {
+  display: inline-block;
+  font-weight: bold;
+  vertical-align: middle;
+}
+/* line 2643, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032643}}
+.detais-product .details-content .price-box .save p {
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+}
+/* line 2651, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032651}}
+.detais-product .details-content .description ul {
+  padding: 0;
+}
+/* line 2653, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032653}}
+.detais-product .details-content .description ul li {
+  margin-bottom: 10px;
+}
+/* line 2658, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032658}}
+.detais-product .details-content .action-detail {
+  margin-top: 50px;
+}
+/* line 2660, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032660}}
+.detais-product .details-content .action-detail button {
+  background: #5d59f8;
+  border: 1px solid #5d59f8;
+  font-size: 18px;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 23px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+/* line 2669, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032669}}
+.detais-product .details-content .action-detail button.btn-intro {
+  background: #fff;
+  color: #5d59f8;
+}
+/* line 2673, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032673}}
+.detais-product .details-content .action-detail button:hover {
+  background: #000;
+  color: #fff;
+}
+/* line 2682, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032682}}
+.page-download .table-list-product {
+  padding: 50px 15px;
+}
+/* line 2684, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032684}}
+.page-download .table-list-product .box-content {
+  max-width: 650px;
+  margin: auto;
+  text-align: left;
+}
+/* line 2688, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032688}}
+.page-download .table-list-product .box-content .logo-img {
+  margin-bottom: 30px;
+}
+/* line 2690, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032690}}
+.page-download .table-list-product .box-content .logo-img img {
+  display: block;
+  max-width: 292px;
+}
+/* line 2695, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032695}}
+.page-download .table-list-product .box-content .download-batch,
+.page-download .table-list-product .box-content .download-all,
+.page-download .table-list-product .box-content .download-no-free,
+.page-download .table-list-product .box-content .category-wise-operations {
+  border-bottom: 1px dashed;
+  padding: 25px 0px;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+/* line 2703, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032703}}
+.page-download .table-list-product .box-content .box2 {
+  float: left;
+  margin-top: 0;
+  padding-right: 10px;
+}
+/* line 2708, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032708}}
+.page-download .table-list-product .box-content .box2 {
+  float: left;
+  margin-top: 0;
+  padding-right: 10px;
+}
+/* line 2712, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032712}}
+.page-download .table-list-product .box-content .box2 img {
+  max-width: 100%;
+}
+/* line 2717, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032717}}
+.page-download .table-list-product .box-content .box1 a {
+  text-decoration: none;
+  color: #41362f;
+}
+/* line 2722, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032722}}
+.page-download .table-list-product .box-content .downloadcenter-index-index h2 {
+  display: inline-block;
+  color: #000;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+/* line 2731, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032731}}
+.page-download .table-list-product .box-content .downloadcenter-index-index h2 a {
+  display: inline-block;
+  color: #000;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+/* line 2740, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032740}}
+.page-download .table-list-product .box-content .box2 a,
+.page-download .table-list-product .box-content .box2 button {
+  display: inline-block;
+  text-align: center;
+  height: auto;
+  width: auto;
+  line-height: unset;
+  padding: 0 20px;
+  background: #222;
+  color: #fff;
+  border: 0;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  max-width: 68px;
+}
+/* line 2756, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032756}}
+.page-download .table-list-product .box-content .box2 a:hover {
+  color: #fff;
+  opacity: 0.7;
+}
+/* line 2766, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032766}}
+.page-pricing-rules {
+  /* Rounded sliders */
+}
+/* line 2767, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032767}}
+.page-pricing-rules .box-content {
+  padding: 50px;
+  text-align: left;
+}
+/* line 2770, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032770}}
+.page-pricing-rules .box-content .advance-price-rules,
+.page-pricing-rules .box-content .simple-price-rules {
+  display: none !important;
+}
+/* line 2774, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032774}}
+.page-pricing-rules .box-content .advance-price-rules.active,
+.page-pricing-rules .box-content .simple-price-rules.active {
+  display: block !important;
+}
+/* line 2778, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032778}}
+.page-pricing-rules .box-content h2 {
+  margin-bottom: 20px;
+}
+/* line 2781, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032781}}
+.page-pricing-rules .box-content .connect-list {
+  margin-bottom: 25px;
+}
+/* line 2783, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032783}}
+.page-pricing-rules .box-content .connect-list ul {
+  padding: 0;
+}
+/* line 2786, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032786}}
+.page-pricing-rules .box-content .connect-list li {
+  display: inline-block;
+}
+/* line 2789, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032789}}
+.page-pricing-rules .box-content .connect-list li.current a,
+.page-pricing-rules .box-content .connect-list li:hover a {
+  background-image: -webkit-gradient(linear, left top, right top, from(#5f11c5), to(#6819ae));
+  background-image: linear-gradient(to right, #5f11c5, #6819ae);
+  color: #fff;
+}
+/* line 2794, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032794}}
+.page-pricing-rules .box-content .connect-list li a {
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 7px 13px;
+  background: #fff;
+  border-radius: 17px;
+  color: #5e55ef;
+  text-decoration: none;
+}
+/* line 2806, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032806}}
+.page-pricing-rules .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 25px;
+}
+/* line 2813, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032813}}
+.page-pricing-rules .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/* line 2819, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032819}}
+.page-pricing-rules .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+/* line 2831, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032831}}
+.page-pricing-rules .slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 20px;
+  left: 9px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+/* line 2842, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032842}}
+.page-pricing-rules .shopify_pricing_rule_button {
+  border: 1px solid black;
+  width: 200px;
+  height: 32px;
+  margin-top: -13px;
+  background: #87dfef;
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 5px 5px 5px 5px;
+}
+/* line 2854, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032854}}
+.page-pricing-rules .woocommerce_pricing_rule_button {
+  border: 1px solid black;
+  width: 250px;
+  height: 32px;
+  background: #87dfef;
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: -13px;
+  margin-left: 58px;
+}
+/* line 2866, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032866}}
+.page-pricing-rules .ebay_pricing_rule_button {
+  border: 1px solid black;
+  width: 250px;
+  height: 32px;
+  background: #87dfef;
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: -13px;
+  margin-left: 58px;
+}
+/* line 2878, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032878}}
+.page-pricing-rules .shopify_pricing_rule_button:hover {
+  border: 3px solid red;
+}
+/* line 2881, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032881}}
+.page-pricing-rules .woocommerce_pricing_rule_button:hover {
+  border: 3px solid red;
+}
+/* line 2884, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032884}}
+.page-pricing-rules .ebay_pricing_rule_button:hover {
+  border: 3px solid red;
+}
+/* line 2887, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032887}}
+.page-pricing-rules input:checked + .slider {
+  background-color: #1d8496;
+}
+/* line 2891, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032891}}
+.page-pricing-rules input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+/* line 2895, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032895}}
+.page-pricing-rules input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/* line 2902, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032902}}
+.page-pricing-rules .slider.round {
+  border-radius: 34px;
+}
+/* line 2906, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032906}}
+.page-pricing-rules .slider.round:before {
+  border-radius: 50%;
+}
+/* line 2910, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032910}}
+.page-pricing-rules .pricing-rule-text {
+  margin-right: 4%;
+  color: #000000;
+}
+/* line 2915, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032915}}
+.page-pricing-rules .Pricing-rule-modes-section {
+  margin-top: 40px;
+}
+/* line 2918, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032918}}
+.page-pricing-rules .modes-text {
+  color: #000000;
+  margin-right: 7%;
+  float: left;
+}
+/* line 2923, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032923}}
+.page-pricing-rules .simple-rule-input input {
+  padding-right: 20px;
+  width: 100px;
+  height: 29px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+/* line 2934, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032934}}
+.page-pricing-rules .model-label select {
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+/* line 2940, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032940}}
+.page-pricing-rules .simple-rule-input i {
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+  background: white;
+  text-align: center;
+  right: 0px;
+  border: 1px solid #000;
+  border-left: none;
+  border-radius: 0px 6px 6px 0px;
+  color: #000;
+}
+/* line 2953, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032953}}
+.page-pricing-rules .simple-rule-input {
+  position: relative;
+  width: 130px !important;
+  margin-left: 3%;
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 2960, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032960}}
+.page-pricing-rules .pricing-rule-form {
+  /*display: none;*/
+}
+/* line 2963, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032963}}
+.page-pricing-rules .clear {
+  clear: both;
+  margin-bottom: 50px;
+}
+/* line 2967, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032967}}
+.page-pricing-rules .model-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/* line 2971, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032971}}
+.page-pricing-rules .pricing-rule-form label,
+.page-pricing-rules .pricing-rule-form-label {
+  margin-right: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 4px 0px;
+  white-space: nowrap;
+}
+/* line 2979, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032979}}
+.page-pricing-rules .rule-label {
+  padding: 4px 10px;
+  margin-right: 20px;
+  text-align: center;
+  width: 180px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
+  position: relative;
+}
+/* line 2989, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032989}}
+.page-pricing-rules .rule-label i {
+  display: none;
+}
+/* line 2992, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032992}}
+.page-pricing-rules .rule-label.active {
+  color: #1e8395;
+  border: 1px solid #1e8395;
+}
+/* line 2996, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000032996}}
+.page-pricing-rules .rule-label.active i {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 18px;
+  color: #1e8395;
+  display: block;
+}
+/* line 3005, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033005}}
+.page-pricing-rules .rule-label:hover {
+  cursor: pointer;
+}
+/* line 3008, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033008}}
+.page-pricing-rules .cost-label {
+  white-space: nowrap;
+  padding: 5px 0px;
+}
+/* line 3012, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033012}}
+.page-pricing-rules #assigncents {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  position: relative;
+}
+/* line 3023, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033023}}
+.page-pricing-rules #assigncents:checked::before {
+  content: "\f00c";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-weight: normal;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #1d8496;
+}
+/* line 3034, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033034}}
+.page-pricing-rules #assigncents_label {
+  color: #666;
+}
+/* line 3037, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033037}}
+.page-pricing-rules #assigncents-advance {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  position: relative;
+}
+/* line 3048, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033048}}
+.page-pricing-rules #assigncents-advance:checked::before {
+  content: "\f00c";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-weight: normal;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #1d8496;
+}
+/* line 3060, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033060}}
+.page-pricing-rules .advance-assign-price-cents-value input {
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 6%;
+  border-radius: 5px;
+  border-color: black;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 3070, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033070}}
+.page-pricing-rules .advance-assign-price-cents-value {
+  display: none;
+}
+/* line 3073, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033073}}
+.page-pricing-rules .assign-price-cents-value input {
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 6%;
+  border-radius: 5px;
+  border-color: black;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #000;
+  height: 29px;
+}
+/* line 3085, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033085}}
+.page-pricing-rules .assign-price-cents-value {
+  display: none;
+}
+/* line 3089, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033089}}
+.page-pricing-rules .advance-price-rules table .devider {
+  width: 5%;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+/* line 3095, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033095}}
+.page-pricing-rules .advance-price-rules table th,
+.page-pricing-rules .advance-price-rules table td {
+  color: black;
+  padding: 5px 0px;
+}
+/* line 3099, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033099}}
+.page-pricing-rules .advance-price-rules table td input {
+  width: 40%;
+  display: inline-block;
+  border-color: black;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  height: 29px;
+  border: 1px solid #000;
+}
+/* line 3110, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033110}}
+.page-pricing-rules .advance-price-rules table td:nth-child(1) {
+  width: 20%;
+}
+/* line 3113, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033113}}
+.page-pricing-rules .advance-price-rules table td:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 3116, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033116}}
+.page-pricing-rules .advance-price-rules table td:nth-child(2) .simple-price-value-textbox {
+  width: 100%;
+}
+/* line 3119, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033119}}
+.page-pricing-rules .advance-price-rules table td:nth-child(2) select {
+  border-color: black;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+/* line 3124, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033124}}
+.page-pricing-rules .cost-icon-delete i,
+.page-pricing-rules .cost-icon-add i {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+/* line 3128, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033128}}
+.page-pricing-rules .cost-icon-delete i {
+  color: #eab2ab;
+}
+/* line 3131, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033131}}
+.page-pricing-rules .cost-icon-add i {
+  color: #1d8496;
+}
+/* line 3134, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033134}}
+.page-pricing-rules .cost-icon-delete {
+  display: none;
+}
+/* line 3137, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033137}}
+.page-pricing-rules .cost-icon-add i:hover,
+.page-pricing-rules .cost-icon-delete i:hover {
+  cursor: pointer;
+}
+/* line 3140, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033140}}
+.page-pricing-rules .submit-form-data {
+  font-size: 18px;
+  color: #1e8395;
+  margin-top: 29px;
+  text-align: end;
+}
+/* line 3146, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033146}}
+.page-pricing-rules .submit-form-data input {
+  border: 1px solid #1e8395;
+  padding: 10px;
+}
+/* line 3150, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033150}}
+.page-pricing-rules .cost-icon-delete {
+  display: inline-block;
+}
+/* line 3153, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033153}}
+.page-pricing-rules #advance-price-rule-table tbody tr:last-child .cost-icon-add {
+  display: inline-block;
+}
+/* line 3156, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033156}}
+.page-pricing-rules .cost-icon-add {
+  display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* line 3163, C:\Users\LongLe\Desktop\html\less\styles.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033163}}
+  .page-pricing-rules .rule-label {
+    font-size: 13px;
+  }
+  /* line 3166, C:\Users\LongLe\Desktop\html\less\styles.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033166}}
+  .page-pricing-rules .rule-label.active i {
+    display: none;
+  }
+  /* line 3169, C:\Users\LongLe\Desktop\html\less\styles.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033169}}
+  .page-pricing-rules #assigncents-advance {
+    width: 21px;
+    height: 21px;
+  }
+  /* line 3173, C:\Users\LongLe\Desktop\html\less\styles.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033173}}
+  .page-pricing-rules .pricing-rule-form label,
+  .page-pricing-rules .pricing-rule-form-label {
+    margin-right: 10px;
+  }
+  /* line 3176, C:\Users\LongLe\Desktop\html\less\styles.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033176}}
+  .page-pricing-rules .advance-assign-price-cents-value input {
+    margin-left: 39%;
+  }
+  /* line 3179, C:\Users\LongLe\Desktop\html\less\styles.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033179}}
+  .page-pricing-rules .submit-form-data {
+    text-align: center;
+  }
+}
+/* line 3185, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033185}}
+.page-mapping .table-list-product {
+  margin-top: 40px;
+  padding: 50px;
+  text-align: left;
+}
+/* line 3189, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033189}}
+.page-mapping .table-list-product .data-gird {
+  width: 50%;
+  min-width: 400px;
+}
+/* line 3193, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033193}}
+.page-mapping .table-list-product .data-gird thead th {
+  text-align: left;
+  padding-left: 20px;
+}
+/* line 3198, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033198}}
+.page-mapping .table-list-product .data-gird tbody td {
+  padding-left: 20px;
+}
+/* line 3200, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033200}}
+.page-mapping .table-list-product .data-gird tbody td select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-image: url(../images/arrows-bg.svg), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: url(../images/arrows-bg.svg), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff);
+  background-position: calc(100% - 12px) -34px, 100%, calc(100% - 3.2rem) 0;
+  background-size: auto, 3.2rem 100%, 1px 100%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-width: 8.5rem;
+  -webkit-transition: border-color 0.1s linear;
+  transition: border-color 0.1s linear;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 1px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #303030;
+  font-size: 1.4rem;
+  font-weight: 400;
+  height: auto;
+  line-height: 1.36;
+  padding: 0.6rem 1rem 0.6rem 0;
+  cursor: pointer;
+  padding-right: 4.4rem;
+  border: 1px solid #aaa;
+  padding-left: 15px;
+  margin-left: 0;
+  min-width: 130px;
+}
+/* line 3210, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033210}}
+.page-mapping .select-plaform {
+  margin-bottom: 30px;
+}
+/* line 3212, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033212}}
+.page-mapping .select-plaform h2 {
+  display: inline-block;
+}
+/* line 3215, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033215}}
+.page-mapping .select-plaform select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-image: url(../images/arrows-bg.svg), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: url(../images/arrows-bg.svg), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff);
+  background-position: calc(100% - 12px) -34px, 100%, calc(100% - 3.2rem) 0;
+  background-size: auto, 3.2rem 100%, 1px 100%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-width: 8.5rem;
+  -webkit-transition: border-color 0.1s linear;
+  transition: border-color 0.1s linear;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 1px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #303030;
+  font-size: 1.4rem;
+  font-weight: 400;
+  height: auto;
+  line-height: 1.36;
+  padding: 0.6rem 1rem 0.6rem 0;
+  cursor: pointer;
+  padding-right: 4.4rem;
+  border: 1px solid #aaa;
+  padding-left: 15px;
+  margin-left: 15px;
+}
+/* line 3222, C:\Users\LongLe\Desktop\html\less\styles.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LongLe\/Desktop\/html\/less\/styles\.less}line{font-family:\000033222}}
+.page-mapping .uploadcsv_wrap {
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=styles.css.map */

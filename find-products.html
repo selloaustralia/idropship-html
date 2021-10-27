@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+        <meta charset="utf-8">
+       	<title>Find products</title>
+       	<link href="css/reset.css" media="screen" rel="stylesheet">
+       	<!-- <link href="css/font-awesome.min.css" media="screen" rel="stylesheet"> -->
+       	<link href="css/font-awesome.min.css" media="screen" rel="stylesheet">
+       	<link href="css/bootstrap.css" media="screen" rel="stylesheet">
+      	<link href="css/styles.css" media="screen" rel="stylesheet">
+      	<link href="css/responsive.css" media="screen" rel="stylesheet">
+      	<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	</head>
+	<body class="dashboard-page">
+		<!-- header -->
+		
+		
+		<div class="page-wrapper">
+			<div class="menu-wrapper">
+				<nav class="admin__menu">
+					<ul id="nav">
+						<li class="item-dashboard level-0">
+							<a href="home.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+						</li>
+						<li class="item-dashboard  level-0">
+							<a href="dashboard.html"><i class="fa fa-tachometer" aria-hidden="true"></i>Dashboard</a>
+						</li>
+						<li class="item-sales level-0 active">
+							<a href="find-products.html" class="disabled"><i class="fa fa-search-plus" aria-hidden="true"></i>Find Product</a>
+						</li>
+						<li class="item-catalogue  level-0">
+							<a href="my-products.html"  class="disabled"><i class="fa fa-product-hunt" aria-hidden="true"></i>My products</a>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="listing-manager.html"  class="disabled"><i class="fa fa-connectdevelop" aria-hidden="true"></i>Listing Manager</a>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="place-order.html"  class="disabled"><i class="fa fa-cart-plus" aria-hidden="true"></i>Place Orders</a>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="order-history.html"  class="disabled"><i class="fa fa-history" aria-hidden="true"></i>Orders History</a>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="wallet.html"  class="disabled"><i class="fa fa-money" aria-hidden="true"></i>Wallet</a>
+						</li>
+						<li class="item-wallet  level-0">
+							<a href="#" class="disabled"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a>
+							<div class="submenu">
+								<strong class="submenu-title">Settings</strong>
+								<a href="#" class="action-close disabled"></a>
+								<ul class="submenu">
+									<li class="column">
+										<ul>
+											<li class="parent">
+												<div class="submenu">
+													<ul>
+														<li>
+															<a href="sale-channel.html">Sales Channel</a>
+														</li>
+														<li>
+															<a href="download-center.html">Download Center</a>
+														</li>
+														<li>
+															<a href="pricing-rules.html">Pricing Rules</a>
+														</li>
+														<li>
+															<a href="logs.html">Logs</a>
+														</li>
+														<li>
+															<a href="image-template.html">Image Template</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</li>
+									
+								</ul>
+							</div>
+						</li>
+						<li class="item-customers  level-0">
+							<a href="sku-mapping.html"  class="disabled"><i class="fa fa-code-fork" aria-hidden="true"></i>Sku Mapping</a>
+						</li>
+						
+					</ul>
+				</nav>
+				<div class="box-required">
+					<div class="box-content">
+						<div class="top">
+							<img src="images/chart2.png">
+							<h3>Completed<br> your profile</h3>
+						</div>
+						<div class="bottom">
+							<h2>Getting started<i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+							<ul>
+								<li>
+									<a href="#">Verify account details</a>
+								</li>
+								<li>
+									<a href="#">Source Product</a>
+								</li>
+								<li>
+									<a href="#">Sales channel</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<main class="page-content">
+				<div class="page-columns">
+					<div class="page-find">
+						<div class="title-heading">
+							<h2>
+								Search products
+							</h2>
+							<p>User Products</p>
+						</div>
+						<div class="sort-filter-db">
+							<div class="date">
+								<div class="current"><i class="fa fa-calendar" aria-hidden="true"></i>Last 7 days</div>
+								<div class="dropdown">
+									<ul>
+										<li>
+											<a href="#">Today</a>
+										</li>
+										<li>
+											<a href="#">Yesterday</a>
+										</li>
+										<li>
+											<a href="#">Last 7 days</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="filter-db">
+								<i class="fa fa-filter" aria-hidden="true"></i> Filters
+							</div>
+						</div>
+						<div class="filter">
+							<div class="box-filter">
+								<form class="quick-search">
+									<input type="text" name="" placeholder="SKU/ Title/ Supplier code">
+									<button><i class="fa fa-search" aria-hidden="true"></i></button>
+								</form>
+								<div class="p-type p-type1">
+									<div class="current">Product type<i class="fa fa-caret-down" aria-hidden="true"></i></div>
+									<div class="dropdown">
+										<ul>
+											<li>
+												<a href="#">Product type</a>
+											</li>
+											<li>
+												<a href="#">Product type</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="p-type p-stock">
+									<div class="current">Stock<i class="fa fa-caret-down" aria-hidden="true"></i></div>
+									<div class="dropdown">
+										<ul>
+											<li>
+												<a href="#">Product type</a>
+											</li>
+											<li>
+												<a href="#">Product type</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="p-type p-supplier">
+									<div class="current">Supplier<i class="fa fa-caret-down" aria-hidden="true"></i></div>
+									<div class="dropdown">
+										<ul>
+											<li>
+												<a href="#">Product type</a>
+											</li>
+											<li>
+												<a href="#">Product type</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="p-type p-sort">
+									<div class="current">Sort By<i class="fa fa-caret-down" aria-hidden="true"></i></div>
+									<div class="dropdown">
+										<ul>
+											<li>
+												<a href="#">Product type</a>
+											</li>
+											<li>
+												<a href="#">Product type</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="p-type">
+									<div class="current">Filter</div>
+								</div>
+								<button class="tips">Search Tips</button>
+								
+							</div>
+							<div class="more-button">
+								
+								<button class=" selected">Select All</button>
+								<button  >Select Products: 0</button>
+								<button  > + Source</button>
+								<button  >x Remove Selected Products</button>
+							</div>
+						</div>
+						<div class="list-product">
+							<div class="row">
+								<div class="item">
+									<div class="select-p">
+								      <input type="checkbox" value="None" id="select-p" name="check" checked />
+								      <label for="select-p"></label>
+								    </div>
+									<div class="item-inner">
+										<div class="product-images">
+											<a href="detail.html">
+												<img src="images/demo.jpg">
+											</a>
+										</div>
+										<div class="product-info">
+											<div class="left">
+												<h3 class="product-name">
+													<a href="detail.html">Aurora Creamy Vanilla Soy Candle Australian Made 300g</a>
+												</h3>
+												<div class="price-box">
+													<div class="old-price">
+														RRP.<span>A$169.00</span>
+													</div>
+												</div>
+											</div>
+											<div class="right">
+												<div class="price-box">
+													<div class="special-price">
+														<span>A$69.00</span>
+													</div>
+													<p>You Save: A$30.00</p>
+													<p>Inclusive of all taxes</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="select-p">
+								      <input type="checkbox" value="None" id="select-p" name="check" />
+								      <label for="select-p"></label>
+								    </div>
+									<div class="item-inner">
+										<div class="product-images">
+											<a href="detail.html">
+												<img src="images/demo.jpg">
+											</a>
+										</div>
+										<div class="product-info">
+											<div class="left">
+												<h3 class="product-name">
+													<a href="detail.html">Aurora Creamy Vanilla Soy Candle Australian Made 300g</a>
+												</h3>
+												<div class="price-box">
+													<div class="old-price">
+														RRP.<span>A$169.00</span>
+													</div>
+												</div>
+											</div>
+											<div class="right">
+												<div class="price-box">
+													<div class="special-price">
+														<span>A$69.00</span>
+													</div>
+													<p>You Save: A$30.00</p>
+													<p>Inclusive of all taxes</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="select-p">
+								      <input type="checkbox" value="None" id="select-p" name="check"  checked/>
+								      <label for="select-p"></label>
+								    </div>
+									<div class="item-inner">
+										<div class="product-images">
+											<a href="detail.html">
+												<img src="images/demo.jpg">
+											</a>
+										</div>
+										<div class="product-info">
+											<div class="left">
+												<h3 class="product-name">
+													<a href="detail.html">Aurora Creamy Vanilla Soy Candle Australian Made 300g</a>
+												</h3>
+												<div class="price-box">
+													<div class="old-price">
+														RRP.<span>A$169.00</span>
+													</div>
+												</div>
+											</div>
+											<div class="right">
+												<div class="price-box">
+													<div class="special-price">
+														<span>A$69.00</span>
+													</div>
+													<p>You Save: A$30.00</p>
+													<p>Inclusive of all taxes</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="select-p">
+								      <input type="checkbox" value="None" id="select-p" name="check" />
+								      <label for="select-p"></label>
+								    </div>
+									<div class="item-inner">
+										<div class="product-images">
+											<a href="detail.html">
+												<img src="images/demo.jpg">
+											</a>
+										</div>
+										<div class="product-info">
+											<div class="left">
+												<h3 class="product-name">
+													<a href="detail.html">Aurora Creamy Vanilla Soy Candle Australian Made 300g</a>
+												</h3>
+												<div class="price-box">
+													<div class="old-price">
+														RRP.<span>A$169.00</span>
+													</div>
+												</div>
+											</div>
+											<div class="right">
+												<div class="price-box">
+													<div class="special-price">
+														<span>A$69.00</span>
+													</div>
+													<p>You Save: A$30.00</p>
+													<p>Inclusive of all taxes</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="select-p">
+								      <input type="checkbox" value="None" id="select-p" name="check" />
+								      <label for="select-p"></label>
+								    </div>
+									<div class="item-inner">
+										<div class="product-images">
+											<a href="detail.html">
+												<img src="images/demo.jpg">
+											</a>
+										</div>
+										<div class="product-info">
+											<div class="left">
+												<h3 class="product-name">
+													<a href="detail.html">Aurora Creamy Vanilla Soy Candle Australian Made 300g</a>
+												</h3>
+												<div class="price-box">
+													<div class="old-price">
+														RRP.<span>A$169.00</span>
+													</div>
+												</div>
+											</div>
+											<div class="right">
+												<div class="price-box">
+													<div class="special-price">
+														<span>A$69.00</span>
+													</div>
+													<p>You Save: A$30.00</p>
+													<p>Inclusive of all taxes</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="select-p">
+								      <input type="checkbox" value="None" id="select-p" name="check" />
+								      <label for="select-p"></label>
+								    </div>
+									<div class="item-inner">
+										<div class="product-images">
+											<a href="detail.html">
+												<img src="images/demo.jpg">
+											</a>
+										</div>
+										<div class="product-info">
+											<div class="left">
+												<h3 class="product-name">
+													<a href="detail.html">Aurora Creamy Vanilla Soy Candle Australian Made 300g</a>
+												</h3>
+												<div class="price-box">
+													<div class="old-price">
+														RRP.<span>A$169.00</span>
+													</div>
+												</div>
+											</div>
+											<div class="right">
+												<div class="price-box">
+													<div class="special-price">
+														<span>A$69.00</span>
+													</div>
+													<p>You Save: A$30.00</p>
+													<p>Inclusive of all taxes</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="select-p">
+								      <input type="checkbox" value="None" id="select-p" name="check" />
+								      <label for="select-p"></label>
+								    </div>
+									<div class="item-inner">
+										<div class="product-images">
+											<a href="detail.html">
+												<img src="images/demo.jpg">
+											</a>
+										</div>
+										<div class="product-info">
+											<div class="left">
+												<h3 class="product-name">
+													<a href="detail.html">Aurora Creamy Vanilla Soy Candle Australian Made 300g</a>
+												</h3>
+												<div class="price-box">
+													<div class="old-price">
+														RRP.<span>A$169.00</span>
+													</div>
+												</div>
+											</div>
+											<div class="right">
+												<div class="price-box">
+													<div class="special-price">
+														<span>A$69.00</span>
+													</div>
+													<p>You Save: A$30.00</p>
+													<p>Inclusive of all taxes</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="select-p">
+								      <input type="checkbox" value="None" id="select-p" name="check" />
+								      <label for="select-p"></label>
+								    </div>
+									<div class="item-inner">
+										<div class="product-images">
+											<a href="detail.html">
+												<img src="images/demo.jpg">
+											</a>
+										</div>
+										<div class="product-info">
+											<div class="left">
+												<h3 class="product-name">
+													<a href="detail.html">Aurora Creamy Vanilla Soy Candle Australian Made 300g</a>
+												</h3>
+												<div class="price-box">
+													<div class="old-price">
+														RRP.<span>A$169.00</span>
+													</div>
+												</div>
+											</div>
+											<div class="right">
+												<div class="price-box">
+													<div class="special-price">
+														<span>A$69.00</span>
+													</div>
+													<p>You Save: A$30.00</p>
+													<p>Inclusive of all taxes</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="select-p">
+								      <input type="checkbox" value="None" id="select-p" name="check" />
+								      <label for="select-p"></label>
+								    </div>
+									<div class="item-inner">
+										<div class="product-images">
+											<a href="detail.html">
+												<img src="images/demo.jpg">
+											</a>
+										</div>
+										<div class="product-info">
+											<div class="left">
+												<h3 class="product-name">
+													<a href="detail.html">Aurora Creamy Vanilla Soy Candle Australian Made 300g</a>
+												</h3>
+												<div class="price-box">
+													<div class="old-price">
+														RRP.<span>A$169.00</span>
+													</div>
+												</div>
+											</div>
+											<div class="right">
+												<div class="price-box">
+													<div class="special-price">
+														<span>A$69.00</span>
+													</div>
+													<p>You Save: A$30.00</p>
+													<p>Inclusive of all taxes</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="select-p">
+								      <input type="checkbox" value="None" id="select-p" name="check" />
+								      <label for="select-p"></label>
+								    </div>
+									<div class="item-inner">
+										<div class="product-images">
+											<a href="detail.html">
+												<img src="images/demo.jpg">
+											</a>
+										</div>
+										<div class="product-info">
+											<div class="left">
+												<h3 class="product-name">
+													<a href="detail.html">Aurora Creamy Vanilla Soy Candle Australian Made 300g</a>
+												</h3>
+												<div class="price-box">
+													<div class="old-price">
+														RRP.<span>A$169.00</span>
+													</div>
+												</div>
+											</div>
+											<div class="right">
+												<div class="price-box">
+													<div class="special-price">
+														<span>A$69.00</span>
+													</div>
+													<p>You Save: A$30.00</p>
+													<p>Inclusive of all taxes</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="select-p">
+								      <input type="checkbox" value="None" id="select-p" name="check" />
+								      <label for="select-p"></label>
+								    </div>
+									<div class="item-inner">
+										<div class="product-images">
+											<a href="detail.html">
+												<img src="images/demo.jpg">
+											</a>
+										</div>
+										<div class="product-info">
+											<div class="left">
+												<h3 class="product-name">
+													<a href="detail.html">Aurora Creamy Vanilla Soy Candle Australian Made 300g</a>
+												</h3>
+												<div class="price-box">
+													<div class="old-price">
+														RRP.<span>A$169.00</span>
+													</div>
+												</div>
+											</div>
+											<div class="right">
+												<div class="price-box">
+													<div class="special-price">
+														<span>A$69.00</span>
+													</div>
+													<p>You Save: A$30.00</p>
+													<p>Inclusive of all taxes</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	
+
+<!-- slider -->
+
+
+<script type="text/javascript">
+	//<!-- js header user -->
+
+var classIcon = document.querySelector(".vertical-menu .title");
+	classIcon.addEventListener("click", function(event){
+		 var target = event.target.parentElement;
+		if (target.classList.contains("show")){
+		target.classList.remove("show")
+		} else {
+			target.classList.add("show")
+		}
+	})
+//<!-- notifications -->
+</script>
+
+
+
+<script>
+	var times = document.querySelectorAll(".col-md-6");
+		times.forEach((x) => x.addEventListener("click", function(event){
+			var isActive = document.querySelector('.active');
+			if (isActive) {
+				isActive.classList.remove("show");
+			}
+			
+			x.classList.add("show")
+			var target = event.target;
+		    var parent = target.parentElement;
+		    parent.parentElement.classList.remove("show");
+		}));
+	
+</script> 
+
+<script type="text/javascript">
+	var classIcon = document.querySelector(".date");
+	classIcon.addEventListener("click", function(event){
+		// var target = event.target.parentElement;
+		if (classIcon.classList.contains("active")){
+		classIcon.classList.remove("active")
+		} else {
+			classIcon.classList.add("active")
+		}
+	})
+</script>
+<script type="text/javascript">
+	var classIcon1 = document.querySelector(".p-type1");
+	classIcon1.addEventListener("click", function(event){
+		// var target = event.target.parentElement;
+		if (classIcon1.classList.contains("active")){
+		classIcon1.classList.remove("active")
+		} else {
+			classIcon1.classList.add("active")
+		}
+	})
+</script>
+<script type="text/javascript">
+	var classIcon2 = document.querySelector(".p-stock");
+	classIcon2.addEventListener("click", function(event){
+		// var target = event.target.parentElement;
+		if (classIcon2.classList.contains("active")){
+		classIcon2.classList.remove("active")
+		} else {
+			classIcon2.classList.add("active")
+		}
+	})
+</script>
+<script type="text/javascript">
+	var classIcon3 = document.querySelector(".p-supplier");
+	classIcon3.addEventListener("click", function(event){
+		// var target = event.target.parentElement;
+		if (classIcon3.classList.contains("active")){
+		classIcon3.classList.remove("active")
+		} else {
+			classIcon3.classList.add("active")
+		}
+	})
+</script>
+<script type="text/javascript">
+	var classIcon4 = document.querySelector(".p-sort");
+	classIcon4.addEventListener("click", function(event){
+		// var target = event.target.parentElement;
+		if (classIcon4.classList.contains("active")){
+		classIcon4.classList.remove("active")
+		} else {
+			classIcon4.classList.add("active")
+		}
+	})
+</script>
+<script>
+	var selector, elems, makeActive;
+
+	selector = '#nav li a';
+
+	elems = document.querySelectorAll(selector);
+
+	makeActive = function () {
+		for (var i = 0; i < elems.length; i++)
+			elems[i].parentNode.classList.remove('active');
+			this.parentNode.classList.add('active');
+	};
+
+	for (var i = 0; i < elems.length; i++){
+		elems[i].addEventListener('click', makeActive);
+	}
+</script>
+<script>
+	var action_close = document.getElementsByClassName("action-close");
+	action_close.addEventListener('click',function(){
+		for (var item of document.querySelectorAll('#nav > li')) {
+			item.classList.remove('active');
+		}
+	});
+	
+</script>
+
+
+</body>
+
+</html>
